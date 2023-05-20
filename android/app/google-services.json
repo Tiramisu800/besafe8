@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "65250836771",
+    "project_id": "besafe-386914",
+    "storage_bucket": "besafe-386914.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65250836771:android:4bbadd23ab7af9c5098c96",
+        "android_client_info": {
+          "package_name": "com.dotcoder.green_taxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65250836771-8jk92vvugt0v1nt6m25l8naep449p3a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ebT9EqIeJmEpPbF-WQ2XX9RluvBRXf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65250836771-8jk92vvugt0v1nt6m25l8naep449p3a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
