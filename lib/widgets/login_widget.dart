@@ -1,9 +1,7 @@
 import 'package:fl_country_code_picker/fl_country_code_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:besafe/utils/app_constants.dart';
-import 'package:besafe/views/otp_verification_screen.dart';
 import 'package:besafe/widgets/text_widget.dart';
 
 Widget loginWidget(
@@ -39,24 +37,20 @@ Widget loginWidget(
                   flex: 1,
                   child: InkWell(
                     onTap: () => onCountryChange(),
-                    child: Container(
-                      child: Row(
-                        children: [
-                          const SizedBox(width: 5),
-
-                          Expanded(
-                            child: Container(
-                              child: countryCode.flagImage(),
-                            ),
+                    child: Row(
+                      children: [
+                        const SizedBox(width: 5),
+                        Expanded(
+                          child: Container(
+                            child: countryCode.flagImage(),
                           ),
-
-                          textWidget(text: countryCode.dialCode),
-
-                          // const SizedBox(width: 10,),
-
-                          Icon(Icons.keyboard_arrow_down_rounded)
-                        ],
-                      ),
+                        ),
+                        textWidget(text: countryCode.dialCode),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        const Icon(Icons.keyboard_arrow_down_rounded)
+                      ],
                     ),
                   )),
               Container(
@@ -67,7 +61,7 @@ Widget loginWidget(
               Expanded(
                 flex: 3,
                 child: Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: TextField(
                     onSubmitted: (String? input) => onSubmit(input),
                     decoration: InputDecoration(
@@ -91,17 +85,17 @@ Widget loginWidget(
             text: TextSpan(
                 style: GoogleFonts.poppins(color: Colors.black, fontSize: 12),
                 children: [
-                  TextSpan(
-                    text: AppConstants.byCreating + " ",
+                  const TextSpan(
+                    text: "${AppConstants.byCreating} ",
                   ),
                   TextSpan(
-                      text: AppConstants.termsOfService + " ",
+                      text: "${AppConstants.termsOfService} ",
                       style: GoogleFonts.poppins(fontWeight: FontWeight.bold)),
-                  TextSpan(
+                  const TextSpan(
                     text: "and ",
                   ),
                   TextSpan(
-                      text: AppConstants.privacyPolicy + " ",
+                      text: "${AppConstants.privacyPolicy} ",
                       style: GoogleFonts.poppins(fontWeight: FontWeight.bold)),
                 ]),
           ),

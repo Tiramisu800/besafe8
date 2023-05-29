@@ -9,8 +9,9 @@ import '../utils/app_colors.dart';
 import '../widgets/green_intro_widget.dart';
 import 'add_payment_card_screen.dart';
 
-
 class PaymentScreen extends StatefulWidget {
+  const PaymentScreen({super.key});
+
   @override
   State<StatefulWidget> createState() {
     return PaymentScreenState();
@@ -30,10 +31,8 @@ class PaymentScreenState extends State<PaymentScreen> {
 
   AuthController authController = Get.find<AuthController>();
 
-
   @override
   void initState() {
-
     authController.getUserCards();
     border = OutlineInputBorder(
       borderSide: BorderSide(
@@ -48,98 +47,103 @@ class PaymentScreenState extends State<PaymentScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      body: Container(
+      body: SizedBox(
         width: Get.width,
         height: Get.height,
         child: Stack(
           children: <Widget>[
-
             greenIntroWidgetWithoutLogos(title: 'My Card'),
-
-
             Positioned(
               top: 120,
               left: 0,
               right: 0,
               bottom: 80,
-              child: Obx(()=> ListView.builder(
+              child: Obx(() => ListView.builder(
+                    shrinkWrap: true,
+                    itemBuilder: (ctx, i) {
+                      String cardNumber = '';
+                      String expiryDate = '';
+                      String cardHolderName = '';
+                      String cvvCode = '';
 
-                shrinkWrap: true,
-                itemBuilder: (ctx,i) {
+                      try {
+                        cardNumber =
+                            authController.userCards[i].value[i].get('number');
+                      } catch (e) {
+                        cardNumber = '';
+                      }
 
-                  String cardNumber = '';
-                  String expiryDate = '';
-                  String cardHolderName = '';
-                  String cvvCode = '';
+                      try {
+                        expiryDate =
+                            authController.userCards[i].value[i].get('expiry');
+                      } catch (e) {
+                        expiryDate = '';
+                      }
 
-                  try{
-                    cardNumber = authController.userCards.value[i].get('number');
-                  }catch(e){
-                    cardNumber = '';
-                  }
+                      try {
+                        cardHolderName =
+                            authController.userCards[i].value[i].get('name');
+                      } catch (e) {
+                        cardHolderName = '';
+                      }
 
-                  try{
-                    expiryDate = authController.userCards.value[i].get('expiry');
-                  }catch(e){
-                    expiryDate = '';
-                  }
+                      try {
+                        cvvCode =
+                            authController.userCards[i].value[i].get('cvv');
+                      } catch (e) {
+                        cvvCode = '';
+                      }
 
-                  try{
-                    cardHolderName = authController.userCards.value[i].get('name');
-                  }catch(e){
-                    cardHolderName = '';
-                  }
-
-                  try{
-                    cvvCode = authController.userCards.value[i].get('cvv');
-                  }catch(e){
-                    cvvCode = '';
-                  }
-
-                  return CreditCardWidget(
-                  cardBgColor: Colors.black,
-                  cardNumber: cardNumber,
-                  expiryDate: expiryDate,
-                  cardHolderName: cardHolderName,
-                  cvvCode: cvvCode,
-                  bankName: '',
-                  showBackView: isCvvFocused,
-                  obscureCardNumber: true,
-                  obscureCardCvv: true,
-                  isHolderNameVisible: true,
-                  isSwipeGestureEnabled: true,
-                  onCreditCardWidgetChange:
-                      (CreditCardBrand creditCardBrand) {},
-
-                );
-                },itemCount: authController.userCards.length,)),
+                      return CreditCardWidget(
+                        cardBgColor: Colors.black,
+                        cardNumber: cardNumber,
+                        expiryDate: expiryDate,
+                        cardHolderName: cardHolderName,
+                        cvvCode: cvvCode,
+                        bankName: '',
+                        showBackView: isCvvFocused,
+                        obscureCardNumber: true,
+                        obscureCardCvv: true,
+                        isHolderNameVisible: true,
+                        isSwipeGestureEnabled: true,
+                        onCreditCardWidgetChange:
+                            (CreditCardBrand creditCardBrand) {},
+                      );
+                    },
+                    itemCount: authController.userCards.length,
+                  )),
             ),
-
             Positioned(
                 bottom: 10,
                 right: 10,
                 child: Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                Text("Add new card",style: GoogleFonts.poppins(fontSize: 18,fontWeight: FontWeight.bold,color: AppColors.greenColor),),
-
-                SizedBox(width: 10,),
-
-                FloatingActionButton(onPressed: (){
-
-
-                  Get.to(()=> AddPaymentCardScreen());
-
-                },child: Icon(Icons.arrow_forward,color: Colors.white,),backgroundColor: AppColors.greenColor,)
-              ],
-            ))
-
-
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Text(
+                      "Add new card",
+                      style: GoogleFonts.poppins(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          color: AppColors.greenColor),
+                    ),
+                    const SizedBox(
+                      width: 10,
+                    ),
+                    FloatingActionButton(
+                      onPressed: () {
+                        Get.to(() => const AddPaymentCardScreen());
+                      },
+                      backgroundColor: AppColors.greenColor,
+                      child: const Icon(
+                        Icons.arrow_forward,
+                        color: Colors.white,
+                      ),
+                    )
+                  ],
+                ))
           ],
         ),
       ),
     );
   }
-
-
 }

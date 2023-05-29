@@ -7,6 +7,8 @@ import 'package:besafe/utils/app_colors.dart';
 
 import '../widgets/green_intro_widget.dart';
 class AddPaymentCardScreen extends StatefulWidget {
+  const AddPaymentCardScreen({super.key});
+
   @override
   State<StatefulWidget> createState() {
     return AddPaymentCardScreenState();
@@ -53,7 +55,7 @@ class AddPaymentCardScreenState extends State<AddPaymentCardScreen> {
 
             children: <Widget>[
 
-              SizedBox(height: 150,),
+              const SizedBox(height: 150,),
 
               CreditCardWidget(
                  cardNumber: cardNumber,
@@ -69,7 +71,7 @@ class AddPaymentCardScreenState extends State<AddPaymentCardScreen> {
                 isSwipeGestureEnabled: true,
                 onCreditCardWidgetChange:
                     (CreditCardBrand creditCardBrand) {},
-                customCardTypeIcons: <CustomCardTypeIcon>[
+                customCardTypeIcons: const <CustomCardTypeIcon>[
 
                 ],
               ),
@@ -134,8 +136,7 @@ class AddPaymentCardScreenState extends State<AddPaymentCardScreen> {
 
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8.0),
-                          ),
-                          primary: AppColors.greenColor
+                          ), backgroundColor: AppColors.greenColor
                           // backgroundColor: const Color(0xff1b447b),
                         ),
                         child: Container(
@@ -152,6 +153,7 @@ class AddPaymentCardScreenState extends State<AddPaymentCardScreen> {
                         ),
                         onPressed: ()async {
                           if (formKey.currentState!.validate()) {
+                            // ignore: avoid_print
                             print('valid!');
 
 
@@ -160,6 +162,7 @@ class AddPaymentCardScreenState extends State<AddPaymentCardScreen> {
                             Get.snackbar('Success', 'Your card is stored successfully');
 
                           } else {
+                             // ignore: avoid_print
                             print('invalid!');
                           }
                         },

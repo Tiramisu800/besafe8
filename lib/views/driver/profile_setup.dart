@@ -7,7 +7,6 @@ import 'package:besafe/controller/auth_controller.dart';
 import 'package:besafe/utils/app_colors.dart';
 import 'package:besafe/widgets/green_intro_widget.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:path/path.dart' as Path;
 
 class DriverProfileSetup extends StatefulWidget {
   const DriverProfileSetup({Key? key}) : super(key: key);
@@ -41,7 +40,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
+            SizedBox(
               height: Get.height * 0.4,
               child: Stack(
                 children: [
@@ -56,14 +55,14 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
                           ? Container(
                         width: 120,
                         height: 120,
-                        margin: EdgeInsets.only(bottom: 20),
+                        margin: const EdgeInsets.only(bottom: 20),
                         decoration: BoxDecoration(
                             boxShadow: [
                               BoxShadow(color: Colors.black.withOpacity(0.1),spreadRadius: 1,blurRadius: 2)
                             ],
                             shape: BoxShape.circle,
                             color:Colors.white),
-                        child: Center(
+                        child: const Center(
                           child: Icon(
                             Icons.camera_alt_outlined,
                             size: 40,
@@ -74,7 +73,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
                           : Container(
                         width: 120,
                         height: 120,
-                        margin: EdgeInsets.only(bottom: 20),
+                        margin: const EdgeInsets.only(bottom: 20),
                         decoration: BoxDecoration(
                             image: DecorationImage(
                                 image: FileImage(selectedImage!),
@@ -91,7 +90,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
               height: 80,
             ),
             Container(
-              padding: EdgeInsets.symmetric(horizontal: 23),
+              padding: const EdgeInsets.symmetric(horizontal: 23),
               child: Form(
                 key: formKey,
                 child: Column(
@@ -102,11 +101,6 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
                       if(input!.isEmpty){
                         return 'Name is required!';
                       }
-
-                      if(input.length<5){
-                        return 'Please enter a valid name!';
-                      }
-
                       return null;
 
                     }),
@@ -137,7 +131,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
                       height: 30,
                     ),
                     Obx(() => authController.isProfileUploading.value
-                        ? Center(
+                        ? const Center(
                       child: CircularProgressIndicator(),
                     )
                         : greenButton('Submit', () {
@@ -170,6 +164,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
     );
   }
 
+  // ignore: non_constant_identifier_names
   TextFieldWidget(
       String title, IconData iconData, TextEditingController controller,Function validator,{Function? onTap,bool readOnly = false}) {
     return Column(
@@ -180,7 +175,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
           style: GoogleFonts.poppins(
               fontSize: 14,
               fontWeight: FontWeight.w600,
-              color: Color(0xffA7A7A7)),
+              color: const Color(0xffA7A7A7)),
         ),
         const SizedBox(
           height: 6,
@@ -205,7 +200,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
             style: GoogleFonts.poppins(
                 fontSize: 14,
                 fontWeight: FontWeight.w600,
-                color: Color(0xffA7A7A7)),
+                color: const Color(0xffA7A7A7)),
             decoration: InputDecoration(
               prefixIcon: Padding(
                 padding: const EdgeInsets.only(left: 10),

@@ -3,7 +3,7 @@ description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+# Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: ">=3.0.0-348.0.dev <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,10 +30,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.5
+  provider: ^6.0.0
+  path: ^1.8.0
   get: ^4.6.5
   flutter_svg: ^2.0.5
   google_fonts: ^4.0.4
@@ -42,46 +43,16 @@ dependencies:
   firebase_core: ^2.13.0
   firebase_auth: ^4.6.1
   image_picker: ^0.8.7+5
-  cloud_firestore: ^4.7.1 
+  cloud_firestore: ^4.7.1
   firebase_storage: ^11.2.1
   google_maps_flutter: ^2.2.6
   flutter_google_places: ^0.3.0
-  google_maps_webservice: 
+  google_maps_webservice:
   geocoding: ^2.1.0
   flutter_credit_card: ^3.0.6
   http: ^0.13.6
   json_serializable: ^6.6.2
   json_annotation: ^4.8.1
-  flutter_launcher_icons: "^0.13.1"
-  flutter_native_splash: ^2.2.19
-
-flutter_native_splash:
-  color: "#4CE5B1"
-  image: "assets/logo.png"
-  android: true
-  ios: true
-
-flutter_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/logo.png"
-  min_sdk_android: 21 # android min sdk min:16, default 21
-  remove_alpha_ios: true
-  web:
-    generate: true
-    image_path: "assets/logo.png"
-    background_color: "#hexcode"
-    theme_color: "#hexcode"
-  windows:
-    generate: true
-    image_path: "assets/logo.png"
-    icon_size: 48 # min:48, max:256, default: 48
-  macos:
-    generate: true
-    image_path: "assets/logo.png"
-
-
-
 
 dev_dependencies:
   flutter_test:
@@ -94,15 +65,40 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.1
   build_runner: ^2.3.3
-  
+  flutter_launcher_icons: "^0.13.1"
+  flutter_native_splash: ^2.2.19
+  flutter_icons_null_safety: ^1.1.0
 
+flutter_native_splash:
+  color: "#4CE5B1"
+  image: "assets/logo 1.png"
+  android: true
+  ios: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo 1.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/logo 1.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/logo 1.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/logo 1.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -110,8 +106,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/
-
+    - assets/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:besafe/utils/app_colors.dart';
 
+// ignore: non_constant_identifier_names
 Widget DecisionButton(String icon,String text,Function onPressed,double width,{double height = 50}){
   return InkWell(
     onTap: ()=> onPressed(),
@@ -25,7 +26,7 @@ Widget DecisionButton(String icon,String text,Function onPressed,double width,{d
           Container(
             width: 65,
             height: height,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: AppColors.greenColor,
               borderRadius: BorderRadius.only(topLeft: Radius.circular(8),bottomLeft: Radius.circular(8)),
 
@@ -33,7 +34,7 @@ Widget DecisionButton(String icon,String text,Function onPressed,double width,{d
             child: Center(child: Image.asset(icon,width: 30,),),
           ),
 
-          Expanded(child: Text(text,style: TextStyle(color: Colors.black),textAlign: TextAlign.center,)),
+          Expanded(child: Text(text,style: const TextStyle(color: Colors.black),textAlign: TextAlign.center,)),
 
 
 

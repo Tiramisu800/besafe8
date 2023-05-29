@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\flutterProjects\\green_taxi\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\besafe8\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\flutterProjects\\green_taxi\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\besafe8\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

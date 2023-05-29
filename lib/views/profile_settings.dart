@@ -7,7 +7,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_maps_webservice/places.dart';
 import 'package:besafe/controller/auth_controller.dart';
 import 'package:besafe/utils/app_colors.dart';
- import 'package:besafe/widgets/green_intro_widget.dart';
+import 'package:besafe/widgets/green_intro_widget.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart' as Path;
 
@@ -101,83 +101,87 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                 child: Column(
                   children: [
                     TextFieldWidget(
-                        'Name', Icons.person_outlined, nameController,(String? input){
+                        'Name', Icons.person_outlined, nameController,
+                        (String? input) {
+                      if (input!.isEmpty) {
+                        return 'Name is required!';
+                      }
 
-                          if(input!.isEmpty){
-                            return 'Name is required!';
-                          }
+                      if (input.length < 5) {
+                        return 'Please enter a valid name!';
+                      }
 
-                          if(input.length<5){
-                            return 'Please enter a valid name!';
-                          }
-
-                          return null;
-
+                      return null;
                     }),
                     const SizedBox(
                       height: 10,
                     ),
                     TextFieldWidget(
-                        'Home Address', Icons.home_outlined, homeController,(String? input){
+                        'Home Address', Icons.home_outlined, homeController,
+                        (String? input) {
+                      if (input!.isEmpty) {
+                        return 'Home Address is required!';
+                      }
 
-                          if(input!.isEmpty){
-                            return 'Home Address is required!';
-                          }
-
-                          return null;
-
-                    },onTap: ()async{
-                      Prediction? p = await  authController.showGoogleAutoComplete(context);
+                      return null;
+                    }, onTap: () async {
+                      Prediction? p =
+                          await authController.showGoogleAutoComplete(context);
 
                       /// now let's translate this selected address and convert it to latlng obj
 
-                      homeAddress = await authController.buildLatLngFromAddress(p!.description!);
+                      homeAddress = await authController
+                          .buildLatLngFromAddress(p!.description!);
                       homeController.text = p.description!;
+
                       ///store this information into firebase together once update is clicked
-
-
-
-                    },readOnly: true),
+                    }, readOnly: true),
                     const SizedBox(
                       height: 10,
                     ),
                     TextFieldWidget('Business Address', Icons.card_travel,
-                        businessController,(String? input){
-                          if(input!.isEmpty){
-                            return 'Business Address is required!';
-                          }
+                        businessController, (String? input) {
+                      if (input!.isEmpty) {
+                        return 'Business Address is required!';
+                      }
 
-                          return null;
-                        },onTap: ()async{
-                          Prediction? p = await  authController.showGoogleAutoComplete(context);
+                      return null;
+                    }, onTap: () async {
+                      Prediction? p =
+                          await authController.showGoogleAutoComplete(context);
 
-                          /// now let's translate this selected address and convert it to latlng obj
+                      /// now let's translate this selected address and convert it to latlng obj
 
-                          businessAddress = await authController.buildLatLngFromAddress(p!.description!);
-                          businessController.text = p.description!;
-                          ///store this information into firebase together once update is clicked
+                      businessAddress = await authController
+                          .buildLatLngFromAddress(p!.description!);
+                      businessController.text = p.description!;
 
-                        },readOnly: true),
+                      ///store this information into firebase together once update is clicked
+                    }, readOnly: true),
                     const SizedBox(
                       height: 10,
                     ),
-                    TextFieldWidget('Shopping Center',
-                        Icons.shopping_cart_outlined, shopController,(String? input){
-                          if(input!.isEmpty){
-                            return 'Shopping Center is required!';
-                          }
+                    TextFieldWidget(
+                        'Shopping Center',
+                        Icons.shopping_cart_outlined,
+                        shopController, (String? input) {
+                      if (input!.isEmpty) {
+                        return 'Shopping Center is required!';
+                      }
 
-                          return null;
-                        },onTap: ()async{
-              Prediction? p = await  authController.showGoogleAutoComplete(context);
+                      return null;
+                    }, onTap: () async {
+                      Prediction? p =
+                          await authController.showGoogleAutoComplete(context);
 
-              /// now let's translate this selected address and convert it to latlng obj
+                      /// now let's translate this selected address and convert it to latlng obj
 
-              shoppingAddress = await authController.buildLatLngFromAddress(p!.description!);
-              shopController.text = p.description!;
-              ///store this information into firebase together once update is clicked
+                      shoppingAddress = await authController
+                          .buildLatLngFromAddress(p!.description!);
+                      shopController.text = p.description!;
 
-              },readOnly: true),
+                      ///store this information into firebase together once update is clicked
+                    }, readOnly: true),
                     const SizedBox(
                       height: 30,
                     ),
@@ -186,9 +190,7 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                             child: CircularProgressIndicator(),
                           )
                         : greenButton('Submit', () {
-
-
-                            if(!formKey.currentState!.validate()){
+                            if (!formKey.currentState!.validate()) {
                               return;
                             }
 
@@ -204,9 +206,8 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                                 businessController.text,
                                 shopController.text,
                                 businessLatLng: businessAddress,
-                              homeLatLng: homeAddress,
-                              shoppingLatLng: shoppingAddress
-                              );
+                                homeLatLng: homeAddress,
+                                shoppingLatLng: shoppingAddress);
                           })),
                   ],
                 ),
@@ -218,8 +219,9 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
     );
   }
 
-  TextFieldWidget(
-      String title, IconData iconData, TextEditingController controller,Function validator,{Function? onTap,bool readOnly = false}) {
+  TextFieldWidget(String title, IconData iconData,
+      TextEditingController controller, Function validator,
+      {Function? onTap, bool readOnly = false}) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -247,8 +249,8 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
               borderRadius: BorderRadius.circular(8)),
           child: TextFormField(
             readOnly: readOnly,
-            onTap: ()=> onTap!(),
-            validator: (input)=> validator(input),
+            onTap: () => onTap!(),
+            validator: (input) => validator(input),
             controller: controller,
             style: GoogleFonts.poppins(
                 fontSize: 14,

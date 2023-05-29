@@ -1,10 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../utils/app_colors.dart';
 
 class VehicalModelYearPage extends StatefulWidget {
-  VehicalModelYearPage({Key? key,required this.onSelect}) : super(key: key);
+  const VehicalModelYearPage({Key? key,required this.onSelect}) : super(key: key);
 
   final Function onSelect;
 
@@ -36,9 +35,9 @@ class _VehicalModelYearPageState extends State<VehicalModelYearPage> {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
 
-        Text('What is the vehicle model year ?',style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600,color: Colors.black),),
+        const Text('What is the vehicle model year ?',style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600,color: Colors.black),),
 
-        SizedBox(height: 10,),
+        const SizedBox(height: 10,),
 
 
         Expanded(child: Center(
@@ -46,7 +45,7 @@ class _VehicalModelYearPageState extends State<VehicalModelYearPage> {
             childCount: years.length,
 
             itemBuilder: (BuildContext context, int index) {
-              return Center(child: Text(years[index].toString(),style: TextStyle(fontWeight: FontWeight.w600),));
+              return Center(child: Text(years[index].toString(),style: const TextStyle(fontWeight: FontWeight.w600),));
             },
             itemExtent: 100,
             onSelectedItemChanged: (value) {

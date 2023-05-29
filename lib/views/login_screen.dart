@@ -7,48 +7,43 @@ import '../widgets/green_intro_widget.dart';
 import '../widgets/login_widget.dart';
 
 class LoginScreen extends StatefulWidget {
-  const  LoginScreen({Key? key}) : super(key: key);
-
+  const LoginScreen({Key? key}) : super(key: key);
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-
   final countryPicker = const FlCountryCodePicker();
 
-  CountryCode countryCode = CountryCode(name: 'Kazakhstan', code: "KZ", dialCode: "+77");
+  CountryCode countryCode =
+      const CountryCode(name: 'Kazakhstan', code: "KZ", dialCode: "+77");
 
-
-  onSubmit(String? input){
-    Get.to(()=>OtpVerificationScreen(countryCode.dialCode+input!));
+  onSubmit(String? input) {
+    if (input != null) {
+      Get.to(() => OtpVerificationScreen(countryCode.dialCode + input));
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: SizedBox(
         width: Get.width,
         height: Get.height,
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-
               greenIntroWidget(),
-
-              const SizedBox(height: 50,),
-
-              loginWidget(countryCode,()async{
+              const SizedBox(
+                height: 50,
+              ),
+              loginWidget(countryCode, () async {
                 final code = await countryPicker.showPicker(context: context);
-                if (code != null)  countryCode = code;
-                setState(() {
-
-                });
-              },onSubmit),
-
-
+                if (code != null) countryCode = code;
+                setState(() {});
+              }, onSubmit),
             ],
           ),
         ),

@@ -27,8 +27,8 @@ class _VehicalColorPageState extends State<VehicalColorPage> {
       ) {
     return Container(
       width: Get.width,
-      margin: EdgeInsets.symmetric(horizontal: 2),
-      padding: EdgeInsets.symmetric(horizontal: 10),
+      margin: const EdgeInsets.symmetric(horizontal: 2),
+      padding: const EdgeInsets.symmetric(horizontal: 10),
       // height: 50,
       decoration: BoxDecoration(
           color: Colors.white,
@@ -77,9 +77,9 @@ class _VehicalColorPageState extends State<VehicalColorPage> {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
 
-        Text('What color of vehicle is it ?',style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600,color: Colors.black),),
+        const Text('What color of vehicle is it ?',style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600,color: Colors.black),),
 
-        SizedBox(height: 30,),
+        const SizedBox(height: 30,),
 
         buildDropDown(),
 

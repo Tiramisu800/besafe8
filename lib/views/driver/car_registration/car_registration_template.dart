@@ -58,7 +58,7 @@ class _CarRegistrationTemplateState extends State<CarRegistrationTemplate> {
                 currentPage = page;
               },
               controller: pageController,
-              physics: NeverScrollableScrollPhysics(),
+              physics: const NeverScrollableScrollPhysics(),
               children: [
 
                 LocationPage(selectedLocation: selectedLocation,onSelect: (String location){
@@ -113,7 +113,7 @@ class _CarRegistrationTemplateState extends State<CarRegistrationTemplate> {
                 UploadDocumentPage(onImageSelected: (File image){
                   document = image;
                 },),
-                DocumentUploadedPage()
+               const DocumentUploadedPage()
               ],
             ),
           ),),
@@ -122,7 +122,7 @@ class _CarRegistrationTemplateState extends State<CarRegistrationTemplate> {
               alignment: Alignment.bottomRight,
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Obx(()=> isUploading.value? Center(child: CircularProgressIndicator(),): FloatingActionButton(onPressed: (){
+                child: Obx(()=> isUploading.value? const Center(child: CircularProgressIndicator(),): FloatingActionButton(onPressed: (){
 
 
                   if(currentPage<8){
@@ -133,7 +133,7 @@ class _CarRegistrationTemplateState extends State<CarRegistrationTemplate> {
                   }
 
 
-                },child: Icon(Icons.arrow_forward,color: Colors.white,),backgroundColor: AppColors.greenColor,)),
+                },backgroundColor: AppColors.greenColor,child: const Icon(Icons.arrow_forward,color: Colors.white,),)),
               )),
 
           
@@ -163,6 +163,6 @@ class _CarRegistrationTemplateState extends State<CarRegistrationTemplate> {
 
     await Get.find<AuthController>().uploadCarEntry(carData);
     isUploading(false);
-    Get.off(()=>VerificaitonPendingScreen());
+    Get.off(()=>const VerificaitonPendingScreen());
   }
 }

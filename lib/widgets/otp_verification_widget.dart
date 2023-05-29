@@ -1,9 +1,7 @@
-import 'package:fl_country_code_picker/fl_country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:besafe/utils/app_constants.dart';
-import 'package:besafe/views/otp_verification_screen.dart';
 import 'package:besafe/widgets/pinput_widget.dart';
 import 'package:besafe/widgets/text_widget.dart';
 
@@ -23,11 +21,11 @@ Widget otpVerificationWidget() {
         ),
 
 
-        Container(
+        SizedBox(
 
             width: Get.width,
             height: 50,
-            child: RoundedWithShadow()),
+            child: const RoundedWithShadow()),
         const SizedBox(
           height: 40,
         ),
@@ -38,8 +36,8 @@ Widget otpVerificationWidget() {
             text: TextSpan(
                 style: GoogleFonts.poppins(color: Colors.black, fontSize: 12),
                 children: [
-                  TextSpan(
-                    text: AppConstants.resendCode + " ",
+                  const TextSpan(
+                    text: "${AppConstants.resendCode} ",
                   ),
                   TextSpan(
                       text: "10 seconds",

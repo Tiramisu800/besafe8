@@ -3,7 +3,7 @@
 // This file is generated from template in file `flutter_tools/lib/src/flutter_plugins.dart`.
 //
 
-// @dart = 2.17
+// @dart = 3.0
 
 import 'dart:io'; // flutter_ignore: dart_io_import.
 import 'package:geocoding_android/geocoding_android.dart';
@@ -33,7 +33,6 @@ class _PluginRegistrant {
           '`geocoding_android` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
       try {
@@ -43,7 +42,6 @@ class _PluginRegistrant {
           '`google_maps_flutter_android` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
       try {
@@ -53,7 +51,6 @@ class _PluginRegistrant {
           '`image_picker_android` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
       try {
@@ -63,7 +60,6 @@ class _PluginRegistrant {
           '`path_provider_android` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
     } else if (Platform.isIOS) {
@@ -74,7 +70,6 @@ class _PluginRegistrant {
           '`geocoding_ios` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
       try {
@@ -84,7 +79,6 @@ class _PluginRegistrant {
           '`google_maps_flutter_ios` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
       try {
@@ -94,7 +88,6 @@ class _PluginRegistrant {
           '`image_picker_ios` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
       try {
@@ -104,7 +97,6 @@ class _PluginRegistrant {
           '`path_provider_foundation` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
     } else if (Platform.isLinux) {
@@ -115,7 +107,6 @@ class _PluginRegistrant {
           '`package_info_plus` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
       try {
@@ -125,7 +116,6 @@ class _PluginRegistrant {
           '`path_provider_linux` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
     } else if (Platform.isMacOS) {
@@ -136,7 +126,6 @@ class _PluginRegistrant {
           '`path_provider_foundation` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
     } else if (Platform.isWindows) {
@@ -147,7 +136,6 @@ class _PluginRegistrant {
           '`package_info_plus` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
       try {
@@ -157,7 +145,6 @@ class _PluginRegistrant {
           '`path_provider_windows` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
     }

@@ -1,5 +1,5 @@
-class AppConstants{
- static const kGoogleApiKey = "AIzaSyCpffgX1g8XRIO1kQJBfGoy7ZWnmscNKPw";
+class AppConstants {
+  static const kGoogleApiKey = "AIzaSyDMPzGdc6KU6Soxu_a0qOlw7EfeV4BRjc4";
 
   static const String helloNiceToMeetYou = 'Hello, nice to meet you!';
   static const String getMovingWithGreenTaxi = 'Get moving with Green Taxi';
@@ -12,5 +12,4 @@ class AppConstants{
   static const String enterOtp = 'Enter your OTP code below';
   static const String resendCode = 'Resend code in';
   static const String seconds = 'seconds';
-
 }
