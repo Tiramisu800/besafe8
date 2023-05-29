@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\besafe8\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
+            "outputFile": "D:\\besafe\\besafe8\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\2be4e662b8894bc4bd933590a9b2a3cd\\transformed\\core-1.9.0\\res\\values-ar\\values-ar.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "24",
-                        "startColumns": "4",
-                        "startOffsets": "2559",
-                        "endColumns": "100",
-                        "endOffsets": "2655"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\5331b8a3f64a49fd2610cd24b4807d6b\\transformed\\jetified-play-services-base-18.0.1\\res\\values-ar\\values.xml",
+                    "source": "C:\\Users\\Bugatti\\.gradle\\caches\\transforms-3\\5331b8a3f64a49fd2610cd24b4807d6b\\transformed\\jetified-play-services-base-18.0.1\\res\\values-ar\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\2ef3a4856a86627f4d2b9f1a1bdf7c68\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-ar\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "125",
-                        "endOffsets": "320"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1009",
-                        "endColumns": "129",
-                        "endOffsets": "1134"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\95f13d201fd6b165e28e45788a48aab8\\transformed\\browser-1.4.0\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Bugatti\\.gradle\\caches\\transforms-3\\95f13d201fd6b165e28e45788a48aab8\\transformed\\browser-1.4.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -69,6 +35,40 @@
                         "startOffsets": "2151,2251,2349,2457",
                         "endColumns": "99,97,107,101",
                         "endOffsets": "2246,2344,2452,2554"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Bugatti\\.gradle\\caches\\transforms-3\\2be4e662b8894bc4bd933590a9b2a3cd\\transformed\\core-1.9.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2559",
+                        "endColumns": "100",
+                        "endOffsets": "2655"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Bugatti\\.gradle\\caches\\transforms-3\\2ef3a4856a86627f4d2b9f1a1bdf7c68\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "125",
+                        "endOffsets": "320"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1009",
+                        "endColumns": "129",
+                        "endOffsets": "1134"
                     }
                 }
             ]

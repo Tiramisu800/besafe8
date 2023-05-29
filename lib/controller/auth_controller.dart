@@ -1,6 +1,7 @@
 import 'dart:developer';
 import 'dart:io';
 
+import 'package:besafe/screens/auth/login_page.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
@@ -128,7 +129,8 @@ class AuthController extends GetxController {
           }
         } else {
           if (value.exists) {
-            Get.offAll(() => const HomeScreen());
+            // Get.offAll(() => const HomeScreen());
+            Get.offAll(() => const LoginPage());
           } else {
             Get.offAll(() => const ProfileSettingScreen());
           }

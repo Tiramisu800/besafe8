@@ -1,3 +1,4 @@
+import 'package:besafe/screens/auth/register_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:besafe/controller/auth_controller.dart';
@@ -44,6 +45,31 @@ class _DecisionScreenState extends State<DecisionScreen> {
                     (){
                       authController.isLoginAsDriver = false;
                    Get.to(()=> const LoginScreen());
+
+
+
+                    },
+                Get.width*0.8
+            ),
+             const SizedBox(height: 20,),
+            DecisionButton(
+                'assets/customer.png',
+                'Sign up by Email',
+                    (){
+                      authController.isLoginAsDriver = false;
+                   Get.to(()=> const RegisterPage());
+
+
+
+                    },
+                Get.width*0.8
+            ),
+             DecisionButton(
+                'assets/customer.png',
+                'Sign up by Email',
+                    (){
+                      authController.isLoginAsDriver = false;
+                   Get.to(()=> const RegisterPage());
 
 
 
