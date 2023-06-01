@@ -1,16 +1,20 @@
 -- Merging decision tree log ---
 application
-INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml:3:4-35:19
-MERGED from [:cloud_firestore] D:\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:cloud_firestore] D:\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_auth] D:\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_auth] D:\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_storage] D:\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_storage] D:\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_core] D:\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_core] D:\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
-MERGED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
-MERGED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml:3:4-35:19
+MERGED from [:cloud_firestore] D:\besafe\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] D:\besafe\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] D:\besafe\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] D:\besafe\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] D:\besafe\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] D:\besafe\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] D:\besafe\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] D:\besafe\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.android:facebook-login:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\d03c170746aaaa8fbcc03779a3ff5d72\transformed\jetified-facebook-login-12.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\d03c170746aaaa8fbcc03779a3ff5d72\transformed\jetified-facebook-login-12.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:29:5-50:19
 MERGED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\Bugatti\.gradle\caches\transforms-3\286a8bef280b42588cb17665a5d7a980\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\Bugatti\.gradle\caches\transforms-3\286a8bef280b42588cb17665a5d7a980\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\a6db1285911f330d23d9f1f56bcaa9ae\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
@@ -37,6 +41,8 @@ MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Bugatti
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Bugatti\.gradle\caches\transforms-3\971b312ea4a6308eaabbf86a93059104\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2ef3a4856a86627f4d2b9f1a1bdf7c68\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2ef3a4856a86627f4d2b9f1a1bdf7c68\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:28:5-58:19
+MERGED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:28:5-58:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Bugatti\.gradle\caches\transforms-3\7e9b5b5869bcc060a8b5acd942dd98a1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Bugatti\.gradle\caches\transforms-3\7e9b5b5869bcc060a8b5acd942dd98a1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.9.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2be4e662b8894bc4bd933590a9b2a3cd\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
@@ -47,31 +53,39 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Bugatti\.gradle\ca
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Bugatti\.gradle\caches\transforms-3\92675814abd480df9805afae3d51565a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Bugatti\.gradle\caches\transforms-3\c96bcc5bc7461ebdede823ff73d672a0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Bugatti\.gradle\caches\transforms-3\c96bcc5bc7461ebdede823ff73d672a0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\04218efc553e5f25ceaa4de0a050d6ad\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\04218efc553e5f25ceaa4de0a050d6ad\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:11:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2be4e662b8894bc4bd933590a9b2a3cd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-login:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\d03c170746aaaa8fbcc03779a3ff5d72\transformed\jetified-facebook-login-12.1.0\AndroidManifest.xml:28:18-44
 	android:name
-		INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
-MERGED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
-MERGED from [:cloud_firestore] D:\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_auth] D:\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_storage] D:\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_core] D:\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [:google_maps_flutter_android] D:\besafe\besafe8\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
-MERGED from [:flutter_plugin_android_lifecycle] D:\besafe\besafe8\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:path_provider_android] D:\besafe\besafe8\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:smart_auth] D:\besafe\besafe8\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:flutter_native_splash] D:\besafe\besafe8\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:shared_preferences_android] D:\besafe\besafe8\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:geocoding_android] D:\besafe\besafe8\build\geocoding_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:google_api_headers] D:\besafe\besafe8\build\google_api_headers\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:package_info_plus] D:\besafe\besafe8\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+ADDED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
+MERGED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
+MERGED from [:cloud_firestore] D:\besafe\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_auth] D:\besafe\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] D:\besafe\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] D:\besafe\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:google_maps_flutter_android] D:\besafe\besafe\besafe8\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] D:\besafe\besafe\besafe8\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] D:\besafe\besafe\besafe8\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:smart_auth] D:\besafe\besafe\besafe8\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_facebook_auth] D:\besafe\besafe\besafe8\build\flutter_facebook_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_native_splash] D:\besafe\besafe\besafe8\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] D:\besafe\besafe\besafe8\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:geocoding_android] D:\besafe\besafe\besafe8\build\geocoding_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:google_api_headers] D:\besafe\besafe\besafe8\build\google_api_headers\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:package_info_plus] D:\besafe\besafe\besafe8\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_bcrypt] D:\besafe\besafe\besafe8\build\flutter_bcrypt\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\579d7a37d55a943af97454c2b236792a\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-login:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\d03c170746aaaa8fbcc03779a3ff5d72\transformed\jetified-facebook-login-12.1.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:21:1-52:12
 MERGED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\Bugatti\.gradle\caches\transforms-3\286a8bef280b42588cb17665a5d7a980\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\a6db1285911f330d23d9f1f56bcaa9ae\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:17:1-75:12
@@ -90,14 +104,28 @@ MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\Bugatti\.gradle\c
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Bugatti\.gradle\caches\transforms-3\c0fa4560dc4abd152ff799653f2cc051\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Bugatti\.gradle\caches\transforms-3\971b312ea4a6308eaabbf86a93059104\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2ef3a4856a86627f4d2b9f1a1bdf7c68\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\51681b89dd22b194c94e1663bed25626\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\854bca6f86aff84e190429a6beb20c9d\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\cbc0655246b771fd09253c4e2fb6155e\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\Bugatti\.gradle\caches\transforms-3\12e6a4e2031805ead98580ef393de683\transformed\fragment-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.7.0] C:\Users\Bugatti\.gradle\caches\transforms-3\dcbd3166c541570fce98023c95673f13\transformed\jetified-activity-1.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:21:1-60:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\4d028ce981c0dd23629b87aad37d3fd6\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\d9b4307a96465945474ec6ddc9d8ea41\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\164670f88724ce249be935108d4f2f02\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Bugatti\.gradle\caches\transforms-3\95f13d201fd6b165e28e45788a48aab8\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\0e2b065283d4fb176a33632e40930f56\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Bugatti\.gradle\caches\transforms-3\7e9b5b5869bcc060a8b5acd942dd98a1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\6b8ac741aa22344d7ac2b90de7d380c3\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\33859dfa5525822abc4f3796776bf234\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Bugatti\.gradle\caches\transforms-3\f6a3e710f5c564b8dc1db46965c92dae\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\0e2b065283d4fb176a33632e40930f56\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2507abc8899eea20af10ee1778b34634\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66b8b534afd8803d9b60a3f0875239e8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\6f1866bf1da28e2781458da073117071\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\41a4241088b8d72d7df0a8911492186f\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\e50412e2fd3b44e06d22a30322b101b0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\df45f58919d6dff036b7916657fee98c\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\98e89194af9955ce495701cd8bdb4a43\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\bf97425b90af1acefb71a1733902b924\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.9.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2be4e662b8894bc4bd933590a9b2a3cd\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Bugatti\.gradle\caches\transforms-3\4155024661a6b2c2fb3e7f50fc0f4f35\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Bugatti\.gradle\caches\transforms-3\ea534884aa4eec41cbc760faa80da546\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
@@ -112,62 +140,75 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Bugatti\.gradle\caches\tra
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Bugatti\.gradle\caches\transforms-3\c96bcc5bc7461ebdede823ff73d672a0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\239242fa461b5621e714c34690530843\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\8eb61e56b4c79ca16a0f1c3093c5f352\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\65876fb18a7cd255a9a7c79e711377cc\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7acf583246c1a26282ee07fc97cd80fd\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Bugatti\.gradle\caches\transforms-3\cec9dad5e3ab7f6547226a1e39a2e23f\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2ebd02aafe031d08d5a57eaa8d795434\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\adbe5f94c83937f0d752925d9a1c9319\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\ed51ddf21e896134df23a7fa8fc6d046\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Bugatti\.gradle\caches\transforms-3\a9af84513dc45395d5b718b94e9d8313\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\e8d014ea5ed1a319db3ed60a466da6d1\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Bugatti\.gradle\caches\transforms-3\37303f339fab8b2d88bf91e0c344b4bf\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
-INJECTED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml:1:1-8:12
-INJECTED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml:1:1-8:12
-INJECTED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\04218efc553e5f25ceaa4de0a050d6ad\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml:1:1-8:12
 	package
-		ADDED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml:2:5-38
-		INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
+		ADDED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml:2:5-38
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
-		INJECTED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
-		INJECTED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml
-INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml
-MERGED from [:cloud_firestore] D:\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:cloud_firestore] D:\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_auth] D:\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_auth] D:\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_storage] D:\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_storage] D:\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_core] D:\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_core] D:\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:google_maps_flutter_android] D:\besafe\besafe8\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:google_maps_flutter_android] D:\besafe\besafe8\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] D:\besafe\besafe8\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] D:\besafe\besafe8\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] D:\besafe\besafe8\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] D:\besafe\besafe8\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:smart_auth] D:\besafe\besafe8\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:smart_auth] D:\besafe\besafe8\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_native_splash] D:\besafe\besafe8\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_native_splash] D:\besafe\besafe8\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:shared_preferences_android] D:\besafe\besafe8\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:shared_preferences_android] D:\besafe\besafe8\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:geocoding_android] D:\besafe\besafe8\build\geocoding_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:geocoding_android] D:\besafe\besafe8\build\geocoding_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:google_api_headers] D:\besafe\besafe8\build\google_api_headers\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:google_api_headers] D:\besafe\besafe8\build\google_api_headers\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:package_info_plus] D:\besafe\besafe8\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:package_info_plus] D:\besafe\besafe8\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml
+MERGED from [:cloud_firestore] D:\besafe\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] D:\besafe\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] D:\besafe\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] D:\besafe\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] D:\besafe\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] D:\besafe\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] D:\besafe\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] D:\besafe\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] D:\besafe\besafe\besafe8\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] D:\besafe\besafe\besafe8\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\besafe\besafe\besafe8\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\besafe\besafe\besafe8\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\besafe\besafe\besafe8\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\besafe\besafe\besafe8\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:smart_auth] D:\besafe\besafe\besafe8\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:smart_auth] D:\besafe\besafe\besafe8\build\smart_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_facebook_auth] D:\besafe\besafe\besafe8\build\flutter_facebook_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_facebook_auth] D:\besafe\besafe\besafe8\build\flutter_facebook_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] D:\besafe\besafe\besafe8\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] D:\besafe\besafe\besafe8\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] D:\besafe\besafe\besafe8\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] D:\besafe\besafe\besafe8\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] D:\besafe\besafe\besafe8\build\geocoding_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] D:\besafe\besafe\besafe8\build\geocoding_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_api_headers] D:\besafe\besafe\besafe8\build\google_api_headers\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_api_headers] D:\besafe\besafe\besafe8\build\google_api_headers\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] D:\besafe\besafe\besafe8\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] D:\besafe\besafe\besafe8\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_bcrypt] D:\besafe\besafe\besafe8\build\flutter_bcrypt\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_bcrypt] D:\besafe\besafe\besafe8\build\flutter_bcrypt\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\579d7a37d55a943af97454c2b236792a\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\579d7a37d55a943af97454c2b236792a\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-login:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\d03c170746aaaa8fbcc03779a3ff5d72\transformed\jetified-facebook-login-12.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\d03c170746aaaa8fbcc03779a3ff5d72\transformed\jetified-facebook-login-12.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:25:5-27:41
 MERGED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\Bugatti\.gradle\caches\transforms-3\286a8bef280b42588cb17665a5d7a980\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\Bugatti\.gradle\caches\transforms-3\286a8bef280b42588cb17665a5d7a980\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\a6db1285911f330d23d9f1f56bcaa9ae\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
@@ -204,22 +245,50 @@ MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Bugatti
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Bugatti\.gradle\caches\transforms-3\971b312ea4a6308eaabbf86a93059104\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2ef3a4856a86627f4d2b9f1a1bdf7c68\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2ef3a4856a86627f4d2b9f1a1bdf7c68\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\51681b89dd22b194c94e1663bed25626\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\51681b89dd22b194c94e1663bed25626\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\854bca6f86aff84e190429a6beb20c9d\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\854bca6f86aff84e190429a6beb20c9d\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\cbc0655246b771fd09253c4e2fb6155e\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\cbc0655246b771fd09253c4e2fb6155e\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\Bugatti\.gradle\caches\transforms-3\12e6a4e2031805ead98580ef393de683\transformed\fragment-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\Bugatti\.gradle\caches\transforms-3\12e6a4e2031805ead98580ef393de683\transformed\fragment-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.7.0] C:\Users\Bugatti\.gradle\caches\transforms-3\dcbd3166c541570fce98023c95673f13\transformed\jetified-activity-1.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.7.0] C:\Users\Bugatti\.gradle\caches\transforms-3\dcbd3166c541570fce98023c95673f13\transformed\jetified-activity-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\4d028ce981c0dd23629b87aad37d3fd6\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\4d028ce981c0dd23629b87aad37d3fd6\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\d9b4307a96465945474ec6ddc9d8ea41\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\d9b4307a96465945474ec6ddc9d8ea41\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\164670f88724ce249be935108d4f2f02\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\164670f88724ce249be935108d4f2f02\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Bugatti\.gradle\caches\transforms-3\95f13d201fd6b165e28e45788a48aab8\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Bugatti\.gradle\caches\transforms-3\95f13d201fd6b165e28e45788a48aab8\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\0e2b065283d4fb176a33632e40930f56\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\0e2b065283d4fb176a33632e40930f56\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Bugatti\.gradle\caches\transforms-3\7e9b5b5869bcc060a8b5acd942dd98a1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Bugatti\.gradle\caches\transforms-3\7e9b5b5869bcc060a8b5acd942dd98a1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\6b8ac741aa22344d7ac2b90de7d380c3\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\6b8ac741aa22344d7ac2b90de7d380c3\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\33859dfa5525822abc4f3796776bf234\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\33859dfa5525822abc4f3796776bf234\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Bugatti\.gradle\caches\transforms-3\f6a3e710f5c564b8dc1db46965c92dae\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Bugatti\.gradle\caches\transforms-3\f6a3e710f5c564b8dc1db46965c92dae\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\0e2b065283d4fb176a33632e40930f56\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\0e2b065283d4fb176a33632e40930f56\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2507abc8899eea20af10ee1778b34634\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2507abc8899eea20af10ee1778b34634\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66b8b534afd8803d9b60a3f0875239e8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66b8b534afd8803d9b60a3f0875239e8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\6f1866bf1da28e2781458da073117071\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\6f1866bf1da28e2781458da073117071\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\41a4241088b8d72d7df0a8911492186f\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\41a4241088b8d72d7df0a8911492186f\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\e50412e2fd3b44e06d22a30322b101b0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\e50412e2fd3b44e06d22a30322b101b0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\df45f58919d6dff036b7916657fee98c\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\df45f58919d6dff036b7916657fee98c\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\98e89194af9955ce495701cd8bdb4a43\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\98e89194af9955ce495701cd8bdb4a43\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\bf97425b90af1acefb71a1733902b924\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\bf97425b90af1acefb71a1733902b924\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.9.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2be4e662b8894bc4bd933590a9b2a3cd\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.9.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2be4e662b8894bc4bd933590a9b2a3cd\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Bugatti\.gradle\caches\transforms-3\4155024661a6b2c2fb3e7f50fc0f4f35\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
@@ -248,28 +317,38 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\239242fa461b5621e714c34690530843\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\8eb61e56b4c79ca16a0f1c3093c5f352\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\8eb61e56b4c79ca16a0f1c3093c5f352\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\65876fb18a7cd255a9a7c79e711377cc\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\65876fb18a7cd255a9a7c79e711377cc\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7acf583246c1a26282ee07fc97cd80fd\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7acf583246c1a26282ee07fc97cd80fd\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Bugatti\.gradle\caches\transforms-3\cec9dad5e3ab7f6547226a1e39a2e23f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Bugatti\.gradle\caches\transforms-3\cec9dad5e3ab7f6547226a1e39a2e23f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2ebd02aafe031d08d5a57eaa8d795434\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2ebd02aafe031d08d5a57eaa8d795434\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\adbe5f94c83937f0d752925d9a1c9319\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\adbe5f94c83937f0d752925d9a1c9319\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\ed51ddf21e896134df23a7fa8fc6d046\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\ed51ddf21e896134df23a7fa8fc6d046\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Bugatti\.gradle\caches\transforms-3\a9af84513dc45395d5b718b94e9d8313\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Bugatti\.gradle\caches\transforms-3\a9af84513dc45395d5b718b94e9d8313\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\e8d014ea5ed1a319db3ed60a466da6d1\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\e8d014ea5ed1a319db3ed60a466da6d1\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Bugatti\.gradle\caches\transforms-3\37303f339fab8b2d88bf91e0c344b4bf\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Bugatti\.gradle\caches\transforms-3\37303f339fab8b2d88bf91e0c344b4bf\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41
-INJECTED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
-INJECTED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\04218efc553e5f25ceaa4de0a050d6ad\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\04218efc553e5f25ceaa4de0a050d6ad\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\besafe\besafe8\android\app\src\main\AndroidManifest.xml
-		INJECTED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml:7:5-66
+ADDED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml:7:5-66
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\a6db1285911f330d23d9f1f56bcaa9ae\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\a6db1285911f330d23d9f1f56bcaa9ae\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:25:5-67
@@ -281,15 +360,15 @@ MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\Bugatti\.grad
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Bugatti\.gradle\caches\transforms-3\7107e3e4d83a9f6c8850963ddf44d07b\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Bugatti\.gradle\caches\transforms-3\7107e3e4d83a9f6c8850963ddf44d07b\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from D:\besafe\besafe8\android\app\src\debug\AndroidManifest.xml:7:22-64
+		ADDED from D:\besafe\besafe\besafe8\android\app\src\debug\AndroidManifest.xml:7:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:cloud_firestore] D:\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_auth] D:\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_auth] D:\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_storage] D:\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_storage] D:\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_core] D:\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_core] D:\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+ADDED from [:cloud_firestore] D:\besafe\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] D:\besafe\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] D:\besafe\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] D:\besafe\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] D:\besafe\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] D:\besafe\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] D:\besafe\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\Bugatti\.gradle\caches\transforms-3\1d2f3748403d706a365106cf2e7fdaef\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:16:9-22:19
@@ -305,47 +384,89 @@ MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Bugatti\.gradl
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Bugatti\.gradle\caches\transforms-3\1ac64edaac858119156d0606852d2a4d\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [:cloud_firestore] D:\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+		ADDED from [:cloud_firestore] D:\besafe\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] D:\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+ADDED from [:cloud_firestore] D:\besafe\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:cloud_firestore] D:\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+		ADDED from [:cloud_firestore] D:\besafe\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:cloud_firestore] D:\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+		ADDED from [:cloud_firestore] D:\besafe\besafe\besafe8\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] D:\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_auth] D:\besafe\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_auth] D:\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_auth] D:\besafe\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_auth] D:\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_auth] D:\besafe\besafe\besafe8\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] D:\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_storage] D:\besafe\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_storage] D:\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_storage] D:\besafe\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_storage] D:\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
+		ADDED from [:firebase_storage] D:\besafe\besafe\besafe8\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] D:\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_core] D:\besafe\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_core] D:\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_core] D:\besafe\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_core] D:\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_core] D:\besafe\besafe\besafe8\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+ADDED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
-		ADDED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+		ADDED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+		ADDED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
 	android:exported
-		ADDED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+		ADDED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+		ADDED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+ADDED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
 	android:resource
-		ADDED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+		ADDED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
 	android:name
-		ADDED from [:image_picker_android] D:\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+		ADDED from [:image_picker_android] D:\besafe\besafe\besafe8\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:30:9-33:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:32:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:33:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:31:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:34:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:34:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:35:9-49:20
+	tools:node
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:38:13-31
+	android:exported
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:36:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:39:13-48:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.dotcoder.green_taxi+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:39:13-48:29
+action#android.intent.action.VIEW
+ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:40:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:42:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:43:17-78
+	android:name
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:43:27-75
+data
+ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:45:17-47:50
+	android:host
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:46:21-56
+	android:scheme
+		ADDED from [com.facebook.android:facebook-common:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\66da4b9906e9073f05912ff6098e793a\transformed\jetified-facebook-common-12.1.0\AndroidManifest.xml:47:21-47
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:20.4.0] C:\Users\Bugatti\.gradle\caches\transforms-3\286a8bef280b42588cb17665a5d7a980\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
@@ -412,26 +533,6 @@ ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\c
 		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
 ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
-action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
-data
-ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
-	android:path
-		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
-	android:host
-		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
-	android:scheme
-		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
 activity#com.google.firebase.auth.internal.RecaptchaActivity
 ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Bugatti\.gradle\caches\transforms-3\209256f8363daebedb9211f853d14a4c\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
 	android:excludeFromRecents
@@ -490,6 +591,38 @@ ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Bugat
 		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2ef3a4856a86627f4d2b9f1a1bdf7c68\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\2ef3a4856a86627f4d2b9f1a1bdf7c68\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:48:25-92
+receiver#com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:51:9-57:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:52:13-118
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:54:13-56:29
+action#com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:55:17-103
+	android:name
+		ADDED from [com.facebook.android:facebook-core:12.1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\7cd8cffe9123e8abd037129c959c8066\transformed\jetified-facebook-core-12.1.0\AndroidManifest.xml:55:25-100
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Bugatti\.gradle\caches\transforms-3\7e9b5b5869bcc060a8b5acd942dd98a1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required
@@ -576,3 +709,7 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Bugatti\.gradle\caches\transforms-3\976bcded54de919af856114f267f2f6d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Bugatti\.gradle\caches\transforms-3\976bcded54de919af856114f267f2f6d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\04218efc553e5f25ceaa4de0a050d6ad\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Bugatti\.gradle\caches\transforms-3\04218efc553e5f25ceaa4de0a050d6ad\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107

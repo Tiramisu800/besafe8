@@ -125,6 +125,7 @@ class AuthController extends GetxController {
           if (value.exists) {
             log("Driver Home Screen");
           } else {
+            
             Get.offAll(() => const DriverProfileSetup());
           }
         } else {
@@ -132,7 +133,8 @@ class AuthController extends GetxController {
             // Get.offAll(() => const HomeScreen());
             Get.offAll(() => const LoginPage());
           } else {
-            Get.offAll(() => const ProfileSettingScreen());
+             Get.offAll(() => const LoginPage());
+            // Get.offAll(() => const ProfileSettingScreen());
           }
         }
       }).catchError((e) {

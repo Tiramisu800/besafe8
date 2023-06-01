@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         textTheme: GoogleFonts.poppinsTextTheme(textTheme),
       ),
-      home: _isSignedIn ? const DecisionScreen() : const LoginScreen(),
+      home: const DecisionScreen() ,
     );
   }
 }

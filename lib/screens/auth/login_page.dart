@@ -9,6 +9,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:bcrypt/bcrypt.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -18,6 +19,8 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+
+
   final formKey = GlobalKey<FormState>();
   String email = "";
   String password = "";
@@ -143,6 +146,13 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   login() async {
+    
+    // String encodePassword(String password) {
+    //   final salt = BCrypt.salt();
+    //   final hashedPassword = BCrypt.hashpw(password, salt);
+    //   return hashedPassword;
+    // }
+
     if (formKey.currentState!.validate()) {
       setState(() {
         _isLoading = true;
@@ -157,6 +167,7 @@ class _LoginPageState extends State<LoginPage> {
           // saving the values to our shared preferences
           await HelperFunctions.saveUserLoggedInStatus(true);
           await HelperFunctions.saveUserEmailSF(email);
+          await HelperFunctions.saveUserPasswordSF(password);
           await HelperFunctions.saveUserNameSF(snapshot.docs[0]['fullName']);
           // ignore: use_build_context_synchronously
           nextScreenReplace(context, const DecisionScreen());

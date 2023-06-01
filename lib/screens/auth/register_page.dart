@@ -177,6 +177,7 @@ class _RegisterPageState extends State<RegisterPage> {
           await HelperFunctions.saveUserLoggedInStatus(true);
           await HelperFunctions.saveUserEmailSF(email);
           await HelperFunctions.saveUserNameSF(fullName);
+          await HelperFunctions.saveUserPasswordSF(password);
           // ignore: use_build_context_synchronously
           nextScreenReplace(context, const LoginPage());
         } else {
@@ -189,10 +190,3 @@ class _RegisterPageState extends State<RegisterPage> {
     }
   }
 }
-
-
-
-
-
-
-
