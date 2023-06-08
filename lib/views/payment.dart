@@ -8,6 +8,7 @@ import 'package:besafe/controller/auth_controller.dart';
 import '../utils/app_colors.dart';
 import '../widgets/green_intro_widget.dart';
 import 'add_payment_card_screen.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class PaymentScreen extends StatefulWidget {
   const PaymentScreen({super.key});
@@ -45,6 +46,7 @@ class PaymentScreenState extends State<PaymentScreen> {
 
   @override
   Widget build(BuildContext context) {
+    var localizedStrings = AppLocalizations.of(context);
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body: SizedBox(

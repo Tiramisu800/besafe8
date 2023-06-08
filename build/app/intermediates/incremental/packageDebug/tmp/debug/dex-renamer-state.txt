@@ -1,9 +1,9 @@
-#Tue May 23 15:31:04 ALMT 2023
-base.2=D\:\\besafe8\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
+#Fri Jun 09 02:40:35 ALMT 2023
+base.2=C\:\\flutterProjects\\besafe8\\besafe8\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
 path.2=classes3.dex
-base.1=D\:\\besafe8\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+base.1=C\:\\flutterProjects\\besafe8\\besafe8\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
 path.1=classes2.dex
-base.0=D\:\\besafe8\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+base.0=C\:\\flutterProjects\\besafe8\\besafe8\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

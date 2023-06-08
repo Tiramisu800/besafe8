@@ -10,6 +10,7 @@ import 'package:besafe/utils/app_colors.dart';
 import 'package:besafe/widgets/green_intro_widget.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart' as Path;
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ProfileSettingScreen extends StatefulWidget {
   const ProfileSettingScreen({Key? key}) : super(key: key);
@@ -42,6 +43,7 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
 
   @override
   Widget build(BuildContext context) {
+    var localizedStrings = AppLocalizations.of(context);
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
@@ -101,14 +103,14 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                 child: Column(
                   children: [
                     TextFieldWidget(
-                        'Name', Icons.person_outlined, nameController,
+                        localizedStrings!.name, Icons.person_outlined, nameController,
                         (String? input) {
                       if (input!.isEmpty) {
-                        return 'Name is required!';
+                        return localizedStrings!.nameisreg;
                       }
 
                       if (input.length < 5) {
-                        return 'Please enter a valid name!';
+                        return localizedStrings!.nameval;
                       }
 
                       return null;
@@ -117,10 +119,10 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                       height: 10,
                     ),
                     TextFieldWidget(
-                        'Home Address', Icons.home_outlined, homeController,
+                        localizedStrings!.home, Icons.home_outlined, homeController,
                         (String? input) {
                       if (input!.isEmpty) {
-                        return 'Home Address is required!';
+                        return localizedStrings!.homeisreg;
                       }
 
                       return null;
@@ -139,10 +141,10 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                     const SizedBox(
                       height: 10,
                     ),
-                    TextFieldWidget('Business Address', Icons.card_travel,
+                    TextFieldWidget(localizedStrings!.businnesadd, Icons.card_travel,
                         businessController, (String? input) {
                       if (input!.isEmpty) {
-                        return 'Business Address is required!';
+                        return localizedStrings!.businnesaddisreg;
                       }
 
                       return null;
@@ -162,11 +164,11 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                       height: 10,
                     ),
                     TextFieldWidget(
-                        'Shopping Center',
+                        localizedStrings!.shop,
                         Icons.shopping_cart_outlined,
                         shopController, (String? input) {
                       if (input!.isEmpty) {
-                        return 'Shopping Center is required!';
+                        return localizedStrings!.shopisreg;
                       }
 
                       return null;
@@ -189,13 +191,13 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                         ? Center(
                             child: CircularProgressIndicator(),
                           )
-                        : greenButton('Submit', () {
+                        : greenButton(localizedStrings!.submit, () {
                             if (!formKey.currentState!.validate()) {
                               return;
                             }
 
                             if (selectedImage == null) {
-                              Get.snackbar('Warning', 'Please add your image');
+                              Get.snackbar('Warning', localizedStrings!.plsaddim);
                               return;
                             }
                             authController.isProfileUploading(true);

@@ -58,6 +58,8 @@ androidx/annotation/PluralsRes.class
 androidx/annotation/Px.class
 androidx/annotation/RawRes.class
 androidx/annotation/RequiresApi.class
+androidx/annotation/RequiresExtension$Container.class
+androidx/annotation/RequiresExtension.class
 androidx/annotation/RequiresFeature.class
 androidx/annotation/RequiresOptIn$Level.class
 androidx/annotation/RequiresOptIn.class
@@ -96,10 +98,12 @@ androidx/core/app/CoreComponentFactory.class
 androidx/core/app/FrameMetricsAggregator$MetricType.class
 androidx/core/app/NotificationCompat$Action$SemanticAction.class
 androidx/core/app/NotificationCompat$BadgeIconType.class
+androidx/core/app/NotificationCompat$CallStyle$CallType.class
 androidx/core/app/NotificationCompat$GroupAlertBehavior.class
 androidx/core/app/NotificationCompat$NotificationVisibility.class
 androidx/core/app/NotificationCompat$ServiceNotificationBehavior.class
 androidx/core/app/NotificationCompat$StreamType.class
+androidx/core/app/PendingIntentCompat$Flags.class
 androidx/core/app/RemoteInput$EditChoicesBeforeSending.class
 androidx/core/app/RemoteInput$Source.class
 androidx/core/app/ServiceCompat$StopForegroundFlags.class

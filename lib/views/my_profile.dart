@@ -9,6 +9,7 @@ import 'package:besafe/controller/auth_controller.dart';
 import 'package:besafe/utils/app_colors.dart';
 import 'package:besafe/widgets/green_intro_widget.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class MyProfile extends StatefulWidget {
   const MyProfile({Key? key}) : super(key: key);
@@ -56,6 +57,8 @@ class _MyProfileState extends State<MyProfile> {
 
   @override
   Widget build(BuildContext context) {
+    var localizedStrings = AppLocalizations.of(context);
+
     print(authController.myUser.value.image!);
     return Scaffold(
       body: SingleChildScrollView(
@@ -67,7 +70,7 @@ class _MyProfileState extends State<MyProfile> {
               height: Get.height * 0.4,
               child: Stack(
                 children: [
-                  greenIntroWidgetWithoutLogos(title: 'My Profile'),
+                  greenIntroWidgetWithoutLogos(title: localizedStrings!.mptitle),
                   Align(
                     alignment: Alignment.bottomCenter,
                     child: InkWell(
@@ -127,14 +130,14 @@ class _MyProfileState extends State<MyProfile> {
                 child: Column(
                   children: [
                     TextFieldWidget(
-                        'Name', Icons.person_outlined, nameController,(String? input){
+                        localizedStrings!.name, Icons.person_outlined, nameController,(String? input){
 
                       if(input!.isEmpty){
-                        return 'Name is required!';
+                        return localizedStrings!.nameisreg;
                       }
 
                       if(input.length<5){
-                        return 'Please enter a valid name!';
+                        return localizedStrings!.nameval;
                       }
 
                       return null;
@@ -144,10 +147,10 @@ class _MyProfileState extends State<MyProfile> {
                       height: 10,
                     ),
                     TextFieldWidget(
-                        'Home Address', Icons.home_outlined, homeController,(String? input){
+                        localizedStrings!.home, Icons.home_outlined, homeController,(String? input){
 
                       if(input!.isEmpty){
-                        return 'Home Address is required!';
+                        return localizedStrings!.homeisreg;
                       }
 
                       return null;
@@ -167,10 +170,10 @@ class _MyProfileState extends State<MyProfile> {
                     const SizedBox(
                       height: 10,
                     ),
-                    TextFieldWidget('Business Address', Icons.card_travel,
+                    TextFieldWidget(localizedStrings!.businnesadd, Icons.card_travel,
                         businessController,(String? input){
                           if(input!.isEmpty){
-                            return 'Business Address is required!';
+                            return localizedStrings!.businnesaddisreg;
                           }
 
                           return null;
@@ -187,10 +190,10 @@ class _MyProfileState extends State<MyProfile> {
                     const SizedBox(
                       height: 10,
                     ),
-                    TextFieldWidget('Shopping Center',
+                    TextFieldWidget(localizedStrings!.shop,
                         Icons.shopping_cart_outlined, shopController,(String? input){
                           if(input!.isEmpty){
-                            return 'Shopping Center is required!';
+                            return localizedStrings!.shopisreg;
                           }
 
                           return null;
@@ -211,7 +214,7 @@ class _MyProfileState extends State<MyProfile> {
                         ? const Center(
                       child: CircularProgressIndicator(),
                     )
-                        : greenButton('Update', () {
+                        : greenButton(localizedStrings!.update, () {
 
 
                       if(!formKey.currentState!.validate()){
