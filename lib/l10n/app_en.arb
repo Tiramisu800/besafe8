@@ -150,5 +150,21 @@
     "back": "Back",
     "@back":{
         "description": "back"
+    },
+    "theme": "Themes",
+    "@theme":{
+        "description": "themes"
+    },
+    "light": "Light",
+    "@light":{
+        "description": "theme"
+    },
+    "dark": "Dark",
+    "@dark":{
+        "description": "theme"
+    },
+    "custom": "Custom",
+    "@custom":{
+        "description": "theme"
     }
 }

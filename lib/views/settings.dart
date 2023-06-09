@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:besafe/providers/locale_provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/get.dart';
+import 'package:besafe/widgets/theme.dart';
 
 class SettingsPage extends StatelessWidget {
   @override
@@ -70,48 +71,20 @@ class SettingsPage extends StatelessWidget {
               ],
             ),
           ),
-          /* Container(
+          Container(
             padding: EdgeInsets.all(16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  AppLocalizations.of(context)!.theme,
+                  "Тема",//AppLocalizations.of(context)!.theme,
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
-                RadioListTile<ThemeState>(
-                  title: Text('Light Theme'),
-                  value: LightTheme(),
-                  groupValue: themeNotifier.getTheme(),
-                  onChanged: (ThemeState? newValue) {
-                    if (newValue != null) {
-                      themeNotifier.setTheme(newValue.themeData);
-                    }
-                  },
-                ),
-                RadioListTile<ThemeState>(
-                  title: Text('Dark Theme'),
-                  value: DarkTheme(),
-                  groupValue: themeNotifier.getTheme(),
-                  onChanged: (ThemeState? newValue) {
-                    if (newValue != null) {
-                      themeNotifier.setTheme(newValue.themeData);
-                    }
-                  },
-                ),
-
-                SizedBox(height: 16),
-                ElevatedButton(
-                  onPressed: () {
-                    // Применить выбранную тему и обновить страницу
-                    Get.updateLocale(selectedLanguage);
-                    Get.forceAppUpdate();
-                  },
-                  child: Text(AppLocalizations.of(context)!.submit),
-                ),
+                SizedBox(height: 8),
+                ThemeSelector(),
               ],
             ),
-          ), */
+          ),
           SizedBox(height: 16),
           ElevatedButton(
             onPressed: () {

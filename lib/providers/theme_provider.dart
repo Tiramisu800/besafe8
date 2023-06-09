@@ -1,23 +1,45 @@
-/* import 'package:flutter/material.dart';
-import 'package:localstorage/localstorage.dart';
+import 'package:flutter/material.dart';
+import 'package:besafe/themes/app_theme.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'dart:convert';
 
+enum ThemeType {    
+  Light,
+  Dark,
+  Custom }
 
-class ThemeProvider extends ChangeNotifier{
-  late var _theme = 0;
-  final arr = [0, 1, 2];
+const kThemeKey = "theme";
 
-  String get theme => _theme;
+class ThemeProvider extends ChangeNotifier { 
+  ThemeData _currentTheme;
 
-  void setTheme(String theme) {
-    if (!arr.contains(theme)) return;
-    _theme = theme;
+  ThemeProvider({required ThemeData initialTheme})
+      : _currentTheme = initialTheme;
+
+  ThemeData get currentTheme => _currentTheme;
+
+  void setTheme(ThemeType type) async {
+    final SharedPreferences sharedPreferences =
+        await SharedPreferences.getInstance();
+    await sharedPreferences.setString(kThemeKey, type.name.toString());
+    _currentTheme = getThemeFromEnum(type);
     notifyListeners();
   }
 
-  void cleanTheme() {
-     _theme = 0;
-    notifyListeners();
-  }
-} */
+  // getTheme() async {
+    
+  //   _currentTheme = theme;
+  // }
+}
+
+ThemeData getThemeFromEnum(ThemeType type) {
+     switch (type) {
+       case ThemeType.Light:
+         return lightTheme;
+       case ThemeType.Dark:
+         return darkTheme;
+       case ThemeType.Custom:
+         return customTheme;
+       default:
+         return customTheme;
+     }
+   }
