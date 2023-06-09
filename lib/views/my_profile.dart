@@ -87,7 +87,7 @@ class _MyProfileState extends State<MyProfile> {
                                 image: NetworkImage(authController.myUser.value.image!),
                                 fit: BoxFit.fill),
                             shape: BoxShape.circle,
-                            color: const Color(0xffD6D6D6)),
+                            color: Theme.of(context).appBarTheme.backgroundColor),
 
                       ): Container(
                         width: 120,
@@ -113,7 +113,7 @@ class _MyProfileState extends State<MyProfile> {
                                 image: FileImage(selectedImage!),
                                 fit: BoxFit.fill),
                             shape: BoxShape.circle,
-                            color: const Color(0xffD6D6D6)),
+                            color: Theme.of(context).appBarTheme.backgroundColor),
                       ),
                     ),
                   ),
@@ -255,7 +255,7 @@ class _MyProfileState extends State<MyProfile> {
           style: GoogleFonts.poppins(
               fontSize: 14,
               fontWeight: FontWeight.w600,
-              color: const Color(0xffA7A7A7)),
+              color: Theme.of(context).colorScheme.primary),
         ),
         const SizedBox(
           height: 6,
@@ -264,7 +264,7 @@ class _MyProfileState extends State<MyProfile> {
           width: Get.width,
           // height: 50,
           decoration: BoxDecoration(
-              color: Colors.white,
+              color: Theme.of(context).colorScheme.background,
               boxShadow: [
                 BoxShadow(
                     color: Colors.black.withOpacity(0.05),
@@ -280,13 +280,13 @@ class _MyProfileState extends State<MyProfile> {
             style: GoogleFonts.poppins(
                 fontSize: 14,
                 fontWeight: FontWeight.w600,
-                color: const Color(0xffA7A7A7)),
+                color: Theme.of(context).colorScheme.primary),
             decoration: InputDecoration(
               prefixIcon: Padding(
                 padding: const EdgeInsets.only(left: 10),
                 child: Icon(
                   iconData,
-                  color: AppColors.greenColor,
+                  color: Theme.of(context).colorScheme.secondary,
                 ),
               ),
               border: InputBorder.none,
@@ -302,7 +302,7 @@ class _MyProfileState extends State<MyProfile> {
       minWidth: Get.width,
       height: 50,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-      color: AppColors.greenColor,
+      color: Theme.of(context).colorScheme.secondary,
       onPressed: () => onPressed(),
       child: Text(
         title,

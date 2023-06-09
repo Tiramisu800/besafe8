@@ -44,7 +44,7 @@ class AddPaymentCardScreenState extends State<AddPaymentCardScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Theme.of(context).colorScheme.background,
       resizeToAvoidBottomInset: false,
       body: Stack(
         children: [
@@ -90,8 +90,8 @@ class AddPaymentCardScreenState extends State<AddPaymentCardScreen> {
                         isExpiryDateVisible: true,
                         cardHolderName: cardHolderName,
                         expiryDate: expiryDate,
-                        themeColor: Colors.blue,
-                        textColor: Colors.black,
+                        themeColor: Theme.of(context).colorScheme.secondary,
+                        textColor: Theme.of(context).colorScheme.primary,
                         cardNumberDecoration: InputDecoration(
                           labelText: 'Number',
                           hintText: 'XXXX XXXX XXXX XXXX',
@@ -136,7 +136,7 @@ class AddPaymentCardScreenState extends State<AddPaymentCardScreen> {
 
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8.0),
-                          ), backgroundColor: AppColors.greenColor
+                          ), backgroundColor: Theme.of(context).colorScheme.secondary
                           // backgroundColor: const Color(0xff1b447b),
                         ),
                         child: Container(

@@ -143,7 +143,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           TextSpan(
                               text: localizedStrings!.helloword,
                               style:
-                                  TextStyle(color: Colors.black, fontSize: 14)),
+                                  TextStyle(color: Theme.of(context).colorScheme.primary)),
                           TextSpan(
                               text: authController.myUser.value.name,
                               style: const TextStyle(
@@ -157,7 +157,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
-                            color: Colors.black),
+                            color: Theme.of(context).colorScheme.primary),
                       )
                     ],
                   )
@@ -184,7 +184,7 @@ class _HomeScreenState extends State<HomeScreen> {
         height: 50,
         padding: const EdgeInsets.only(left: 15),
         decoration: BoxDecoration(
-            color: Colors.white,
+            color: Theme.of(context).colorScheme.background,
             boxShadow: [
               BoxShadow(
                   color: Colors.black.withOpacity(0.05),
@@ -261,7 +261,7 @@ class _HomeScreenState extends State<HomeScreen> {
         height: 50,
         padding: const EdgeInsets.only(left: 15),
         decoration: BoxDecoration(
-            color: Colors.white,
+            color: Theme.of(context).colorScheme.background,
             boxShadow: [
               BoxShadow(
                   color: Colors.black.withOpacity(0.05),
@@ -339,7 +339,7 @@ class _HomeScreenState extends State<HomeScreen> {
         width: Get.width * 0.8,
         height: 25,
         decoration: BoxDecoration(
-            color: Colors.white,
+            color: Theme.of(context).colorScheme.background,
             boxShadow: [
               BoxShadow(
                   color: Colors.black.withOpacity(0.05),
@@ -449,7 +449,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           style: GoogleFonts.poppins(
                               fontSize: 24,
                               fontWeight: FontWeight.bold,
-                              color: Colors.black),
+                              color: Theme.of(context).colorScheme.primary),
                           overflow: TextOverflow.ellipsis,
                           maxLines: 1,
                         )
@@ -555,7 +555,7 @@ class _HomeScreenState extends State<HomeScreen> {
       polylineId: PolylineId(placeId),
       visible: true,
       points: [source, destination],
-      color: AppColors.greenColor,
+      color: Theme.of(context).colorScheme.secondary,
       width: 5,
     ));
   }
@@ -826,11 +826,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 Expanded(child: buildPaymentCardWidget()),
                 MaterialButton(
                   onPressed: () {},
-                  color: AppColors.greenColor,
+                  color: Theme.of(context).colorScheme.secondary,
                   shape: const StadiumBorder(),
                   child: textWidget(
                     text: 'Confirm',
-                    color: Colors.white,
+                    color: Theme.of(context).colorScheme.background,
                   ),
                 )
               ],

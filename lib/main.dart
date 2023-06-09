@@ -11,6 +11,10 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:besafe/providers/locale_provider.dart';
+import 'package:besafe/providers/theme_provider.dart';
+import 'package:besafe/themes/light_theme.dart';
+import 'package:besafe/themes/dark_theme.dart';
+import 'package:besafe/themes/custom_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,6 +28,8 @@ void main() async {
       ChangeNotifierProvider<LocaleProvider>(
         create: (context) => LocaleProvider(),
       ),
+/*       ChangeNotifierProvider<ThemeProvider>(
+        create: (context) => ThemeProvider()) */
     ],
     child: MyApp(),
   )
@@ -40,14 +46,16 @@ class MyApp extends StatelessWidget {
     authController.decideRoute();
     final textTheme = Theme.of(context).textTheme;
     final provider = Provider.of<LocaleProvider>(context);
-
+    //final providerthem = Provider.of<ThemeProvider>(context);
 
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
-      theme: ThemeData(
-        textTheme: GoogleFonts.poppinsTextTheme(textTheme),
-      ),
+      // theme: ThemeData(
+      //   textTheme: GoogleFonts.poppinsTextTheme(textTheme),
+      // ),
+      theme: lighttheme,
+      darkTheme: darktheme,
       locale: provider.locale,
       supportedLocales: L10n.all,
       localizationsDelegates: [

@@ -97,7 +97,7 @@ class PaymentScreenState extends State<PaymentScreen> {
                       }
 
                       return CreditCardWidget(
-                        cardBgColor: Colors.black,
+                        cardBgColor: Theme.of(context).colorScheme.background,
                         cardNumber: cardNumber,
                         expiryDate: expiryDate,
                         cardHolderName: cardHolderName,
@@ -126,7 +126,7 @@ class PaymentScreenState extends State<PaymentScreen> {
                       style: GoogleFonts.poppins(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
-                          color: AppColors.greenColor),
+                          color: Theme.of(context).colorScheme.secondary),
                     ),
                     const SizedBox(
                       width: 10,
@@ -135,7 +135,7 @@ class PaymentScreenState extends State<PaymentScreen> {
                       onPressed: () {
                         Get.to(() => const AddPaymentCardScreen());
                       },
-                      backgroundColor: AppColors.greenColor,
+                      backgroundColor: Theme.of(context).colorScheme.secondary,
                       child: const Icon(
                         Icons.arrow_forward,
                         color: Colors.white,

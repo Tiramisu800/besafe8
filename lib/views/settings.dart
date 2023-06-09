@@ -13,6 +13,8 @@ class SettingsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(AppLocalizations.of(context)!.settings),
+        backgroundColor: Theme.of(context).colorScheme.background,
+        foregroundColor: Theme.of(context).colorScheme.primary,
       ),
       body: ListView(
         children: [
@@ -68,7 +70,7 @@ class SettingsPage extends StatelessWidget {
               ],
             ),
           ),
-/*           Container(
+          /* Container(
             padding: EdgeInsets.all(16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -76,6 +78,36 @@ class SettingsPage extends StatelessWidget {
                 Text(
                   AppLocalizations.of(context)!.theme,
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+                RadioListTile<ThemeState>(
+                  title: Text('Light Theme'),
+                  value: LightTheme(),
+                  groupValue: themeNotifier.getTheme(),
+                  onChanged: (ThemeState? newValue) {
+                    if (newValue != null) {
+                      themeNotifier.setTheme(newValue.themeData);
+                    }
+                  },
+                ),
+                RadioListTile<ThemeState>(
+                  title: Text('Dark Theme'),
+                  value: DarkTheme(),
+                  groupValue: themeNotifier.getTheme(),
+                  onChanged: (ThemeState? newValue) {
+                    if (newValue != null) {
+                      themeNotifier.setTheme(newValue.themeData);
+                    }
+                  },
+                ),
+
+                SizedBox(height: 16),
+                ElevatedButton(
+                  onPressed: () {
+                    // Применить выбранную тему и обновить страницу
+                    Get.updateLocale(selectedLanguage);
+                    Get.forceAppUpdate();
+                  },
+                  child: Text(AppLocalizations.of(context)!.submit),
                 ),
               ],
             ),
