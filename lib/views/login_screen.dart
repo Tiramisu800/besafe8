@@ -5,6 +5,7 @@ import 'package:besafe/views/otp_verification_screen.dart';
 
 import '../widgets/green_intro_widget.dart';
 import '../widgets/login_widget.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

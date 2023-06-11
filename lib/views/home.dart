@@ -8,6 +8,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:google_maps_webservice/places.dart';
 import 'package:besafe/views/my_profile.dart';
+import 'package:besafe/views/settings.dart';
 
 import '../controller/auth_controller.dart';
 import '../controller/polyline_handler.dart';
@@ -17,6 +18,7 @@ import 'dart:ui' as ui;
 
 import '../widgets/text_widget.dart';
 import 'payment.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -97,6 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget buildProfileTile() {
+    var localizedStrings = AppLocalizations.of(context);
     return Positioned(
       top: 0,
       left: 0,
@@ -137,10 +140,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       RichText(
                         text: TextSpan(children: [
-                          const TextSpan(
-                              text: 'Good Morning, ',
+                          TextSpan(
+                              text: localizedStrings!.helloword,
                               style:
-                                  TextStyle(color: Colors.black, fontSize: 14)),
+                                  TextStyle(color: Theme.of(context).colorScheme.primary)),
                           TextSpan(
                               text: authController.myUser.value.name,
                               style: const TextStyle(
@@ -149,12 +152,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                   fontWeight: FontWeight.bold)),
                         ]),
                       ),
-                      const Text(
-                        "Where are you going?",
+                      Text(
+                        localizedStrings.wherego,
                         style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
-                            color: Colors.black),
+                            color: Theme.of(context).colorScheme.primary),
                       )
                     ],
                   )
@@ -170,6 +173,8 @@ class _HomeScreenState extends State<HomeScreen> {
   bool showSourceField = false;
 
   Widget buildTextField() {
+    var localizedStrings = AppLocalizations.of(context);
+    var destin = localizedStrings!.destination;
     return Positioned(
       top: 170,
       left: 20,
@@ -179,7 +184,7 @@ class _HomeScreenState extends State<HomeScreen> {
         height: 50,
         padding: const EdgeInsets.only(left: 15),
         decoration: BoxDecoration(
-            color: Colors.white,
+            color: Theme.of(context).colorScheme.background,
             boxShadow: [
               BoxShadow(
                   color: Colors.black.withOpacity(0.05),
@@ -207,7 +212,7 @@ class _HomeScreenState extends State<HomeScreen> {
             markers.add(Marker(
               markerId: MarkerId(selectedPlace),
               infoWindow: InfoWindow(
-                title: 'Destination: $selectedPlace',
+                title: destin + '$selectedPlace',
               ),
               position: destination,
               icon: BitmapDescriptor.fromBytes(markIcons),
@@ -227,7 +232,7 @@ class _HomeScreenState extends State<HomeScreen> {
             fontWeight: FontWeight.bold,
           ),
           decoration: InputDecoration(
-            hintText: 'Search for a destination',
+            hintText: localizedStrings.searchfordest,
             hintStyle: GoogleFonts.poppins(
               fontSize: 16,
               fontWeight: FontWeight.bold,
@@ -246,6 +251,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget buildTextFieldForSource() {
+    var localizedStrings = AppLocalizations.of(context);
     return Positioned(
       top: 230,
       left: 20,
@@ -255,7 +261,7 @@ class _HomeScreenState extends State<HomeScreen> {
         height: 50,
         padding: const EdgeInsets.only(left: 15),
         decoration: BoxDecoration(
-            color: Colors.white,
+            color: Theme.of(context).colorScheme.background,
             boxShadow: [
               BoxShadow(
                   color: Colors.black.withOpacity(0.05),
@@ -274,7 +280,7 @@ class _HomeScreenState extends State<HomeScreen> {
             fontWeight: FontWeight.bold,
           ),
           decoration: InputDecoration(
-            hintText: 'From:',
+            hintText: localizedStrings!.from,
             hintStyle: GoogleFonts.poppins(
               fontSize: 16,
               fontWeight: FontWeight.bold,
@@ -333,7 +339,7 @@ class _HomeScreenState extends State<HomeScreen> {
         width: Get.width * 0.8,
         height: 25,
         decoration: BoxDecoration(
-            color: Colors.white,
+            color: Theme.of(context).colorScheme.background,
             boxShadow: [
               BoxShadow(
                   color: Colors.black.withOpacity(0.05),
@@ -395,6 +401,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   buildDrawer() {
+    var localizedStrings = AppLocalizations.of(context);
     return Drawer(
       child: Column(
         children: [
@@ -431,18 +438,18 @@ class _HomeScreenState extends State<HomeScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text('Good Morning, ',
+                        Text(localizedStrings!.helloword,
                             style: GoogleFonts.poppins(
                                 color: Colors.black.withOpacity(0.28),
                                 fontSize: 14)),
                         Text(
                           authController.myUser.value.name == null
-                              ? "Mark"
+                              ? ""
                               : authController.myUser.value.name!,
                           style: GoogleFonts.poppins(
                               fontSize: 24,
                               fontWeight: FontWeight.bold,
-                              color: Colors.black),
+                              color: Theme.of(context).colorScheme.primary),
                           overflow: TextOverflow.ellipsis,
                           maxLines: 1,
                         )
@@ -461,16 +468,16 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Column(
               children: [
                 buildDrawerItem(
-                    title: 'Payment History',
+                    title: localizedStrings.pah,
                     onPressed: () => Get.to(() => const PaymentScreen())),
                 buildDrawerItem(
-                    title: 'Ride History', onPressed: () {}, isVisible: true),
-                buildDrawerItem(title: 'Invite Friends', onPressed: () {}),
-                buildDrawerItem(title: 'Promo Codes', onPressed: () {}),
-                buildDrawerItem(title: 'Settings', onPressed: () {}),
-                buildDrawerItem(title: 'Support', onPressed: () {}),
+                    title: localizedStrings.rih, onPressed: () {}, isVisible: true),
+                buildDrawerItem(title: localizedStrings.invite, onPressed: () {}),
+                buildDrawerItem(title: localizedStrings.promo, onPressed: () {}),
+                buildDrawerItem(title: localizedStrings.settings, onPressed: () => Get.to(() => SettingsPage())),
+                buildDrawerItem(title: localizedStrings.support, onPressed: () {}),
                 buildDrawerItem(
-                    title: 'Log Out',
+                    title: localizedStrings.logout,
                     onPressed: () {
                       FirebaseAuth.instance.signOut();
                     }),
@@ -548,7 +555,7 @@ class _HomeScreenState extends State<HomeScreen> {
       polylineId: PolylineId(placeId),
       visible: true,
       points: [source, destination],
-      color: AppColors.greenColor,
+      color: Theme.of(context).colorScheme.secondary,
       width: 5,
     ));
   }
@@ -819,11 +826,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 Expanded(child: buildPaymentCardWidget()),
                 MaterialButton(
                   onPressed: () {},
-                  color: AppColors.greenColor,
+                  color: Theme.of(context).colorScheme.secondary,
                   shape: const StadiumBorder(),
                   child: textWidget(
                     text: 'Confirm',
-                    color: Colors.white,
+                    color: Theme.of(context).colorScheme.background,
                   ),
                 )
               ],

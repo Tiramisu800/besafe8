@@ -73,8 +73,8 @@ class AddPaymentScreenState extends State<AddPaymentScreen> {
                     isExpiryDateVisible: true,
                     cardHolderName: cardHolderName,
                     expiryDate: expiryDate,
-                    themeColor: Colors.blue,
-                    textColor: Colors.white,
+                    themeColor: Theme.of(context).colorScheme.secondary,
+                    textColor: Theme.of(context).colorScheme.primary,
                     cardNumberDecoration: InputDecoration(
                       labelText: 'Number',
                       hintText: 'XXXX XXXX XXXX XXXX',

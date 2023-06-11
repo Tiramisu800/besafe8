@@ -10,6 +10,7 @@ import 'package:besafe/utils/app_colors.dart';
 import 'package:besafe/widgets/green_intro_widget.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart' as Path;
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ProfileSettingScreen extends StatefulWidget {
   const ProfileSettingScreen({Key? key}) : super(key: key);
@@ -42,6 +43,7 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
 
   @override
   Widget build(BuildContext context) {
+    var localizedStrings = AppLocalizations.of(context);
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
@@ -66,12 +68,12 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                               margin: EdgeInsets.only(bottom: 20),
                               decoration: BoxDecoration(
                                   shape: BoxShape.circle,
-                                  color: Color(0xffD6D6D6)),
+                                  color: Theme.of(context).appBarTheme.backgroundColor),
                               child: Center(
                                 child: Icon(
                                   Icons.camera_alt_outlined,
                                   size: 40,
-                                  color: Colors.white,
+                                  color: Theme.of(context).colorScheme.background,
                                 ),
                               ),
                             )
@@ -84,7 +86,7 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                                       image: FileImage(selectedImage!),
                                       fit: BoxFit.fill),
                                   shape: BoxShape.circle,
-                                  color: Color(0xffD6D6D6)),
+                                  color: Theme.of(context).colorScheme.background),
                             ),
                     ),
                   ),
@@ -101,14 +103,14 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                 child: Column(
                   children: [
                     TextFieldWidget(
-                        'Name', Icons.person_outlined, nameController,
+                        localizedStrings!.name, Icons.person_outlined, nameController,
                         (String? input) {
                       if (input!.isEmpty) {
-                        return 'Name is required!';
+                        return localizedStrings!.nameisreg;
                       }
 
                       if (input.length < 5) {
-                        return 'Please enter a valid name!';
+                        return localizedStrings!.nameval;
                       }
 
                       return null;
@@ -117,10 +119,10 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                       height: 10,
                     ),
                     TextFieldWidget(
-                        'Home Address', Icons.home_outlined, homeController,
+                        localizedStrings!.home, Icons.home_outlined, homeController,
                         (String? input) {
                       if (input!.isEmpty) {
-                        return 'Home Address is required!';
+                        return localizedStrings!.homeisreg;
                       }
 
                       return null;
@@ -139,10 +141,10 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                     const SizedBox(
                       height: 10,
                     ),
-                    TextFieldWidget('Business Address', Icons.card_travel,
+                    TextFieldWidget(localizedStrings!.businnesadd, Icons.card_travel,
                         businessController, (String? input) {
                       if (input!.isEmpty) {
-                        return 'Business Address is required!';
+                        return localizedStrings!.businnesaddisreg;
                       }
 
                       return null;
@@ -162,11 +164,11 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                       height: 10,
                     ),
                     TextFieldWidget(
-                        'Shopping Center',
+                        localizedStrings!.shop,
                         Icons.shopping_cart_outlined,
                         shopController, (String? input) {
                       if (input!.isEmpty) {
-                        return 'Shopping Center is required!';
+                        return localizedStrings!.shopisreg;
                       }
 
                       return null;
@@ -189,13 +191,13 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
                         ? Center(
                             child: CircularProgressIndicator(),
                           )
-                        : greenButton('Submit', () {
+                        : greenButton(localizedStrings!.submit, () {
                             if (!formKey.currentState!.validate()) {
                               return;
                             }
 
                             if (selectedImage == null) {
-                              Get.snackbar('Warning', 'Please add your image');
+                              Get.snackbar('Warning', localizedStrings!.plsaddim);
                               return;
                             }
                             authController.isProfileUploading(true);
@@ -230,7 +232,7 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
           style: GoogleFonts.poppins(
               fontSize: 14,
               fontWeight: FontWeight.w600,
-              color: Color(0xffA7A7A7)),
+              color: Theme.of(context).colorScheme.primary),
         ),
         const SizedBox(
           height: 6,
@@ -239,7 +241,7 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
           width: Get.width,
           // height: 50,
           decoration: BoxDecoration(
-              color: Colors.white,
+              color: Theme.of(context).appBarTheme.backgroundColor,
               boxShadow: [
                 BoxShadow(
                     color: Colors.black.withOpacity(0.05),
@@ -255,13 +257,13 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
             style: GoogleFonts.poppins(
                 fontSize: 14,
                 fontWeight: FontWeight.w600,
-                color: Color(0xffA7A7A7)),
+                color: Theme.of(context).colorScheme.primary),
             decoration: InputDecoration(
               prefixIcon: Padding(
                 padding: const EdgeInsets.only(left: 10),
                 child: Icon(
                   iconData,
-                  color: AppColors.greenColor,
+                  color: Theme.of(context).colorScheme.secondary,
                 ),
               ),
               border: InputBorder.none,
@@ -277,12 +279,12 @@ class _ProfileSettingScreenState extends State<ProfileSettingScreen> {
       minWidth: Get.width,
       height: 50,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-      color: AppColors.greenColor,
+      color: Theme.of(context).colorScheme.secondary,
       onPressed: () => onPressed(),
       child: Text(
         title,
         style: GoogleFonts.poppins(
-            fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white),
+            fontSize: 16, fontWeight: FontWeight.bold, color: Theme.of(context).colorScheme.primary),
       ),
     );
   }

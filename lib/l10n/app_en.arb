@@ -1,0 +1,170 @@
+{
+    "language": "English",
+    "@language":{
+        "description": "The current Language"
+    },
+    "helloworld": "Hello world!",
+    "@helloworld":{
+        "description": "Hello world text"
+    },
+    "titleprofile": "Let’s Get Started!",
+    "@titleprofile":{
+        "description": "titleprofile"
+    },
+    "subtitleprofile": "Complete the profile Details",
+    "@subtitleprofile":{
+        "description": "subtitleprofile"
+    },
+    "name": "Name",
+    "@name":{
+        "description": "name"
+    },
+    "nameval": "Please enter a valid name!",
+    "@nameval":{
+        "description": "Please enter a valid name!"
+    },
+    "nameisreg": "Name is required!",
+    "@nameisreg":{
+        "description": "nameisreg"
+    },
+    "email": "Email",
+    "@email":{
+        "description": "email"
+    },
+    "emailisreg": "Email is required!",
+    "@emailisreg":{
+        "description": "emailisreg"
+    },
+    "emailvalid": "Enter valid email.",
+    "@emailvalid":{
+        "description": "emailvalid"
+    },
+    "submit": "Submit",
+    "@submit":{
+        "description": "submit"
+    },
+    "plsaddim": "Please add your image",
+    "@plsaddim":{
+        "description": "plsaddim"
+    },
+    "helloword": "Good Morning, Be safe!",
+    "@helloword":{
+        "description": "helloword"
+    },
+    "wherego": "Where are you going?",
+    "@wherego":{
+        "description": "wherego"
+    },
+    "destination": "Destination:",
+    "@destination":{
+        "description": "destination"
+    },
+    "searchfordest": "Search for a destination",
+    "@searchfordest":{
+        "description": "searchfordest"
+    },
+    "from": "From:",
+    "@from":{
+        "description": "from"
+    },
+    "pah": "Payment History",
+    "@pah":{
+        "description": "pah"
+    },
+    "rih": "Ride History",
+    "@rih":{
+        "description": "rih"
+    },
+    "invite": "Invite Friends",
+    "@invite":{
+        "description": "invite text"
+    },
+    "promo": "Promo Codes",
+    "@promo":{
+        "description": "promo text"
+    },
+    "settings": "Settings",
+    "@settings":{
+        "description": "settings text"
+    },
+    "support": "Support",
+    "@support":{
+        "description": "support text"
+    },
+    "logout": "Log Out",
+    "@logout":{
+        "description": "logout text"
+    },
+    "mptitle": "My Profile",
+    "@mptitle":{
+        "description": "mptitle text"
+    },
+    "home": "Home Address",
+    "@home":{
+        "description": "homer text"
+    },
+    "homeisreg": "Home Address is required!",
+    "@homeisreg":{
+        "description": "homeisreg text"
+    },
+    "businnesadd": "Business Address",
+    "@businnesadd":{
+        "description": "businnesadd text"
+    },
+    "businnesaddisreg": "Business Address is required!",
+    "@businnesaddisreg":{
+        "description": "businnesaddisreg text"
+    },
+    "shop": "Shopping Center",
+    "@shop":{
+        "description": "Shopping Center text"
+    },
+    "shopisreg": "Shopping Center is required!",
+    "@shopisreg":{
+        "description": "Shopping Center is required text"
+    },
+    "update": "Update",
+    "@update":{
+        "description": "Update text"
+    },
+    "logasd": "Login As Driver",
+    "@logasd":{
+        "description": "Log As Driver text"
+    },
+    "logasu": "Login As User",
+    "@logasu":{
+        "description": "Log As User text"
+    },
+    "english": "English",
+    "@english":{
+        "description": "english"
+    },
+    "russian": "Russian",
+    "@russian":{
+        "description": "russian"
+    },
+    "kazakh": "Kazakh",
+    "@kazakh":{
+        "description": "kazakh"
+    },
+    "back": "Back",
+    "@back":{
+        "description": "back"
+    },
+    "theme": "Themes",
+    "@theme":{
+        "description": "themes"
+    },
+    "light": "Light",
+    "@light":{
+        "description": "theme"
+    },
+    "dark": "Dark",
+    "@dark":{
+        "description": "theme"
+    },
+    "custom": "Custom",
+    "@custom":{
+        "description": "theme"
+    }
+}

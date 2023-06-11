@@ -8,6 +8,7 @@ import 'package:besafe/controller/auth_controller.dart';
 import '../utils/app_colors.dart';
 import '../widgets/green_intro_widget.dart';
 import 'add_payment_card_screen.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class PaymentScreen extends StatefulWidget {
   const PaymentScreen({super.key});
@@ -45,6 +46,7 @@ class PaymentScreenState extends State<PaymentScreen> {
 
   @override
   Widget build(BuildContext context) {
+    var localizedStrings = AppLocalizations.of(context);
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body: SizedBox(
@@ -95,7 +97,7 @@ class PaymentScreenState extends State<PaymentScreen> {
                       }
 
                       return CreditCardWidget(
-                        cardBgColor: Colors.black,
+                        cardBgColor: Theme.of(context).colorScheme.background,
                         cardNumber: cardNumber,
                         expiryDate: expiryDate,
                         cardHolderName: cardHolderName,
@@ -124,7 +126,7 @@ class PaymentScreenState extends State<PaymentScreen> {
                       style: GoogleFonts.poppins(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
-                          color: AppColors.greenColor),
+                          color: Theme.of(context).colorScheme.secondary),
                     ),
                     const SizedBox(
                       width: 10,
@@ -133,7 +135,7 @@ class PaymentScreenState extends State<PaymentScreen> {
                       onPressed: () {
                         Get.to(() => const AddPaymentCardScreen());
                       },
-                      backgroundColor: AppColors.greenColor,
+                      backgroundColor: Theme.of(context).colorScheme.secondary,
                       child: const Icon(
                         Icons.arrow_forward,
                         color: Colors.white,

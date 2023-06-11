@@ -7,6 +7,7 @@ import 'package:besafe/controller/auth_controller.dart';
 import 'package:besafe/utils/app_colors.dart';
 import 'package:besafe/widgets/green_intro_widget.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class DriverProfileSetup extends StatefulWidget {
   const DriverProfileSetup({Key? key}) : super(key: key);
@@ -34,6 +35,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
 
   @override
   Widget build(BuildContext context) {
+    var localizedStrings = AppLocalizations.of(context);
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
@@ -44,7 +46,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
               height: Get.height * 0.4,
               child: Stack(
                 children: [
-                  greenIntroWidgetWithoutLogos(title: 'Let’s Get Started!',subtitle: 'Complete the profile Details'),
+                  greenIntroWidgetWithoutLogos(title: localizedStrings!.titleprofile,subtitle: localizedStrings.subtitleprofile),
                   Align(
                     alignment: Alignment.bottomCenter,
                     child: InkWell(
@@ -96,10 +98,10 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
                 child: Column(
                   children: [
                     TextFieldWidget(
-                        'Name', Icons.person_outlined, nameController,(String? input){
+                        localizedStrings.name , Icons.person_outlined, nameController,(String? input){
 
                       if(input!.isEmpty){
-                        return 'Name is required!';
+                        return localizedStrings.nameisreg ;
                       }
                       return null;
 
@@ -109,14 +111,14 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
                     ),
                     TextFieldWidget(
 
-                        'Email', Icons.email, emailController,(String? input){
+                        localizedStrings.email , Icons.email, emailController,(String? input){
 
                       if(input!.isEmpty){
-                        return 'Email is required!';
+                        return localizedStrings.emailisreg;
                       }
 
                       if(!input.isEmail){
-                        return 'Enter valid email.';
+                        return localizedStrings.emailvalid;
                       }
 
                       return null;
@@ -134,7 +136,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
                         ? const Center(
                       child: CircularProgressIndicator(),
                     )
-                        : greenButton('Submit', () {
+                        : greenButton(localizedStrings.submit , () {
 
 
                       if(!formKey.currentState!.validate()){
@@ -142,7 +144,7 @@ class _DriverProfileSetupState extends State<DriverProfileSetup> {
                       }
 
                       if (selectedImage == null) {
-                        Get.snackbar('Warning', 'Please add your image');
+                        Get.snackbar('Warning', localizedStrings.plsaddim);
                         return;
                       }
                       authController.isProfileUploading(true);

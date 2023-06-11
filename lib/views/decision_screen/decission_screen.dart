@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:besafe/controller/auth_controller.dart';
 import 'package:besafe/views/login_screen.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
- import '../../widgets/green_intro_widget.dart';
+import '../../widgets/green_intro_widget.dart';
 import '../../widgets/my_button.dart';
 
 class DecisionScreen extends StatefulWidget {
@@ -18,6 +19,7 @@ class _DecisionScreenState extends State<DecisionScreen> {
 
   @override
   Widget build(BuildContext context) {
+    var localizedStrings = AppLocalizations.of(context);
     return Scaffold(
       body: SizedBox(
         width: double.infinity,
@@ -29,7 +31,7 @@ class _DecisionScreenState extends State<DecisionScreen> {
 
             DecisionButton(
               'assets/driver.png',
-              'Login As Driver',
+              localizedStrings!.logasd,
                 (){
                 authController.isLoginAsDriver = true;
                   Get.to(()=> const LoginScreen());
@@ -40,7 +42,7 @@ class _DecisionScreenState extends State<DecisionScreen> {
             const SizedBox(height: 20,),
             DecisionButton(
                 'assets/customer.png',
-                'Login As User',
+                localizedStrings.logasu,
                     (){
                       authController.isLoginAsDriver = false;
                    Get.to(()=> const LoginScreen());

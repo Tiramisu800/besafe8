@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../widgets/green_intro_widget.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 
 class VerificaitonPendingScreen extends StatefulWidget {
@@ -15,6 +16,8 @@ class _VerificaitonPendingScreenState extends State<VerificaitonPendingScreen> {
 
    @override
   Widget build(BuildContext context) {
+    var localizedStrings = AppLocalizations.of(context);
+
     return Scaffold(
       body: Column(
         children: [
