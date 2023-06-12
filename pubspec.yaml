@@ -58,6 +58,8 @@ dependencies:
   json_annotation: ^4.8.1
   equatable: ^2.0.3
   shared_preferences: ^2.0.12
+  connectivity: ^3.0.6
+  
 
 dev_dependencies:
   flutter_test:
@@ -73,6 +75,8 @@ dev_dependencies:
   flutter_native_splash: ^2.2.19
   flutter_icons_null_safety: ^1.1.0
   intl: ^0.18.0
+ 
+
 
 
 flutter_native_splash:
