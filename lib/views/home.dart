@@ -440,10 +440,10 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
                         Text(localizedStrings!.helloword,
                             style: GoogleFonts.poppins(
-                                color: Colors.black.withOpacity(0.28),
+                                color: Theme.of(context).colorScheme.primary,
                                 fontSize: 14)),
                         Text(
-                          authController.myUser.value.name == null
+                          authController.myUser.value.name == null  
                               ? ""
                               : authController.myUser.value.name!,
                           style: GoogleFonts.poppins(

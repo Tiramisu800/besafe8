@@ -2,6 +2,7 @@
     package="com.dotcoder.green_taxi">
    <application
         android:label="BeSafe Taxi"
+        android:label="BeSafe"
         android:name="${applicationName}"
         android:icon="@mipmap/logodark">
         <activity
